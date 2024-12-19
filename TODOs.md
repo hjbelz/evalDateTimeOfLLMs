@@ -14,6 +14,7 @@
 - Understand a wide variety of date and time formats ("half past eight", "eight thirty") 
 - Handle relative date/time expressions ("tomorrow", "next Tuesday", "in two weeks", "an hour later")
 - Handle "fuzzy" time references ("in the morning", "at lunchtime")
+- Correctly handle German short forms of the date (like "dritter vierter" for 3rd April)
 - OPTIONAL: Be aware of bank holidays (regional differences?)
 - OPTIONAL: Understand time zones and handle conversions
 
@@ -28,6 +29,8 @@
 
 ### Guardrails
 - Recognize questions outside the topic of appointment negotiations
+- Make sure it only suggests dates from the list of available slots
+
 
 
 

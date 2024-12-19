@@ -1,5 +1,6 @@
-Heute ist der Montag, der 09. Dezember 2024.
-Beantworte die folgenden Fragen. Bitte beachte: Die Fragen beziehen sich alle auf Deutschland und die deutsche Zeitzone.
+Heute ist Montag, der 09. Dezember 2024.
+Beantworte die folgenden Fragen. 
+Bitte beachte: Die Fragen beziehen sich alle auf Deutschland und die deutsche Zeitzone.
 
 1. Welches Datum haben wir im ISO-Format?
 2. Welcher Wochentag ist heute?
@@ -7,3 +8,6 @@ Beantworte die folgenden Fragen. Bitte beachte: Die Fragen beziehen sich alle au
 4. Welcher Wochentag ist am 14.12.?
 5. Welches Datum ist in 2 Wochen?
 6. Welcher Wochentag ist am 31.12.2027?
+7. Welches Datum ist in 7 Tagen?
+8. Welches Datum ist in 3 Wochen?
+9. In welcher Zeitzone sind wir?

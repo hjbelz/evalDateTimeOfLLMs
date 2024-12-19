@@ -1,10 +1,13 @@
-Heute ist der Montag, der 09. Dezember 2024.
-Beantworte die folgenden Fragen. Bitte beachte: Die Fragen beziehen sich alle auf Deutschland und die deutsche Zeitzone.
+Heute ist Montag, der 09. Dezember 2024.
+Beantworte die folgenden Fragen. 
+Bitte beachte: Die Fragen beziehen sich alle auf Deutschland und die deutsche Zeitzone.
 
 1. Welcher Tag ist übermorgen?
 2. Ist der 20.12. in der nächsten Woche?
 3. Welches Datum ist am Mittwoch nächster Woche?
 4. Welcher Wochentag ist in 35 Tagen?
-5. Und in 36 Tagen?
+5. Und am Tag danach?
 6. Ist der 15.12. ein Werktag?
-7. Ist der 25.12. ein normaler Arbeitstag?
+7. Welcher Wochentag ist der 15.12.?
+8. Ist der 25.12. ein normaler Arbeitstag?
+9. Was ist der zweite erste nächsten Jahres für ein Wochentag?  

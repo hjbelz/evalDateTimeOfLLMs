@@ -22,7 +22,7 @@ prefix="${last_element:0:2}"        # Get the first two characters (example: "01
 
 # Header and status output 
 headline="Running all prompts in $promptPath against model $model"
-protocolFile="protocol-$model-step$prefix-$(date +%F_%H_%M_%S).log"
+protocolFile="eval-step$prefix-$model-$(date +%F_%H_%M_%S).log"
 echo "$headline ..."
 echo "$headline" > "$protocolFile"
 echo "-------------------------------------------------------------------------" >> $protocolFile
