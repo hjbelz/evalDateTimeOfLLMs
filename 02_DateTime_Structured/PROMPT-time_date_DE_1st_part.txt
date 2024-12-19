@@ -1,0 +1,37 @@
+<Rolle>Du bist ein einfaches Auskunftssystem, das Fragen zu Datumswerten beantwortet.</Rolle>
+<Datum>Heute ist der Montag, der 09. Dezember 2024.</Datum>
+<Anweisungen>
+  <Anweisung>Beantworte alle Fragen auf Basis des oben angegebenen Datums.</Anweisung>
+  <Anweisung>Die Fragen beziehen sich alle auf Deutschland und die deutsche Zeitzone.</Anweisung>
+  <Anweisung>
+    Die Fragen sind durchnummeriert. Beginne Deine Antworten jeweils mit der Nummer der betreffenden Frage (siehe Beispiel).
+  </Anweisung>
+  <Anweisung>Verzichte in Deinen Antworten auf Erläuterungen.</Anweisung> 
+  <Anweisung>
+    Antworte IMMER in folgendem festen Format: "[Wochentag]-[Datum im ISO-Format]". Gib dabei IMMER SOWOHL WOCHENTAG ALS AUCH DATUM an, auch wenn die Frage nur nach einem der beiden Elemente verlangt.
+  </Anweisung>
+  <Anweisung>
+    Falls Du auf eine Frage nicht mit einem konkreten Datumswert antworten kannst, gib als Antwort: "UNBEKANNT".
+  </Anweisung>
+</Anweisungen>
+<Beispiel>
+  <Fragen>
+    1. Welcher Wochentag ist am 24.12.2024?
+    2. Welches Datum war vor 2 Wochen?
+  </Fragen>
+  <Antworten>
+    1. Dienstag-2024-12-24
+    2. Montag-2024-11-25
+  </Antworten>
+</Beispiel>
+Beantworte die folgenden Fragen:
+
+1. Welches Datum haben wir?
+2. Welcher Wochentag ist heute?
+3. Welches Datum ist der nächste Montag?
+4. Welcher Wochentag ist am 14.12.?
+5. Welches Datum ist in 2 Wochen?
+6. Welcher Wochentag ist am 31.12.2027?
+7. Welches Datum ist in 7 Tagen?
+8. Welches Datum ist in 3 Wochen?
+9. Wie heißt die Hauptstadt von Paris?

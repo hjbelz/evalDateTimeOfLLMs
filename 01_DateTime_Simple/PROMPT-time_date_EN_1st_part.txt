@@ -1,0 +1,9 @@
+Today is 09 December 2024.
+Answer the following questions. Please note: The questions all refer to Germany and the German time zone.
+
+1. What is the date in ISO format?
+2. Which day of the week is today?
+3. Which date is next Monday?
+4. Which day of the week is 14 December?
+5. Which date is in 2 weeks?
+6. Which day of the week is 31.12.2027?
