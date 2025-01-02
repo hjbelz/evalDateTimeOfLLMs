@@ -27,6 +27,25 @@ echo "$headline ..."
 echo "$headline" > "$protocolFile"
 echo "-------------------------------------------------------------------------" >> $protocolFile
 
+# Attempt to load a system prompt (first file that matches prefix "SYSTEM*" in the prompt path)
+file_path=$(find "$promptPath" -type f -name "SYSTEM*" | head -n 1)
+
+# Check if a matching file was found
+if [[ -n "$file_path" ]]; then
+  # Read the content of the file into a variable
+  systemPrompt=$(<"$file_path")
+  # Print the variable to confirm
+  echo "System prompt loaded from '$file_path'."
+  echo "System prompt loaded from '$file_path'." >> "$protocolFile"
+
+else
+  systemPrompt=""
+  echo "No system prompt found. Using only prompt files."
+  echo "No system prompt found. Using only prompt files." >> "$protocolFile"
+fi
+
+echo "-------------------------------------------------------------------------" >> $protocolFile
+
 # Running the prompts:
 # Loop through all files in $promptPath starting with "PROMPT"
 for file in "$promptPath"/PROMPT*; do
@@ -35,7 +54,11 @@ for file in "$promptPath"/PROMPT*; do
     echo "Processing $file ..."
     echo "--- Prompt file $file" >> "$protocolFile"
     echo "" >> "$protocolFile"
-    llm -m "$model" -o temperature 0 < "$file" >> "$protocolFile"
+    if [ -z "$systemPrompt" ]; then
+      llm -m "$model" -o temperature 0 < "$file" >> "$protocolFile"
+    else
+      llm -m "$model" -o temperature 0 -s "$systemPrompt" < "$file" >> "$protocolFile"
+    fi
     echo "-------------------------------------------------------------------------" >> "$protocolFile"
   else
     echo "No files matching 'PROMPT*' found in $promptPath."

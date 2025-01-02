@@ -1,5 +1,5 @@
 # macOS
 .DS_Store
 
-# logs
-test-protocols
+# temporary logs
+_tmp_protocols
