@@ -1,0 +1,56 @@
+Running all prompts in 02_DateTime_Structured against model gemini-2.0-flash-exp
+-------------------------------------------------------------------------
+System prompt loaded from '02_DateTime_Structured/SYSTEM-date_structured_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_DE_1st_part.txt
+
+1. Monday-2024-12-09
+2. Monday-2024-12-09
+3. Monday-2024-12-16
+4. Saturday-2024-12-14
+5. Monday-2024-12-23
+6. UNBEKANNT.
+7. Monday-2024-12-16
+8. Monday-2024-12-30
+9. UNBEKANNT.
+
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_DE_2nd_part.txt
+
+1. Wednesday-2024-12-11
+2. Yes.
+3. Wednesday-2024-12-18
+4. Monday-2025-01-13
+5. Tuesday-2025-01-14
+6. No.
+7. Sunday-2024-12-15
+8. No.
+9. Thursday-2025-01-02
+
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_EN_1st_part.txt
+
+1. Monday-2024-12-09
+2. Monday-2024-12-09
+3. Monday-2024-12-16
+4. Saturday-2024-12-14
+5. Monday-2024-12-23
+6. Friday-2027-12-31
+7. Monday-2024-12-16
+8. Monday-2024-12-30
+9. UNBEKANNT.
+
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_EN_2nd_part.txt
+
+1. Wednesday-2024-12-11
+2. Yes.
+3. Wednesday-2024-12-18
+4. Thursday-2025-01-13
+5. Friday-2025-01-14
+6. No.
+7. Sunday-2024-12-15
+8. No.
+9. Thursday-2025-01-02
+
+-------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+Running all prompts in 02_DateTime_Structured against model gemini-pro
+-------------------------------------------------------------------------
+System prompt loaded from '02_DateTime_Structured/SYSTEM-date_structured_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_DE_1st_part.txt
+
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_DE_2nd_part.txt
+
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_EN_1st_part.txt
+
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_EN_2nd_part.txt
+
+-------------------------------------------------------------------------

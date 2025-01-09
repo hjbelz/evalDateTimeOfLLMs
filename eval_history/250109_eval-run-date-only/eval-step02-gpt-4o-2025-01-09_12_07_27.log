@@ -1,0 +1,52 @@
+Running all prompts in 02_DateTime_Structured against model gpt-4o
+-------------------------------------------------------------------------
+System prompt loaded from '02_DateTime_Structured/SYSTEM-date_structured_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_DE_1st_part.txt
+
+1. Montag-2024-12-09
+2. Montag-2024-12-09
+3. Montag-2024-12-16
+4. Samstag-2024-12-14
+5. Montag-2023-12-23
+6. Freitag-2027-12-31
+7. Montag-2024-12-16
+8. Montag-2024-12-30
+9. UNBEKANNT.
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_DE_2nd_part.txt
+
+1. Mittwoch-2024-12-11
+2. Nein.
+3. Mittwoch-2024-12-18
+4. Montag-2024-01-13
+5. Dienstag-2024-01-14
+6. Ja.
+7. Sonntag-2024-12-15
+8. Nein.
+9. Donnerstag-2025-01-02
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_EN_1st_part.txt
+
+1. Monday-2024-12-09
+2. Monday-2024-12-09
+3. Monday-2024-12-16
+4. Saturday-2024-12-14
+5. Monday-2023-12-23
+6. Friday-2027-12-31
+7. Monday-2024-12-16
+8. Monday-2024-12-30
+9. UNBEKANNT.
+-------------------------------------------------------------------------
+--- Prompt file 02_DateTime_Structured/PROMPT-date_structured_EN_2nd_part.txt
+
+1. Wednesday-2024-12-11
+2. No.
+3. Wednesday-2024-12-18
+4. Monday-2024-01-13
+5. Tuesday-2024-01-14
+6. Yes.
+7. Sunday-2024-12-15
+8. No.
+9. Thursday-2025-01-02
+-------------------------------------------------------------------------
