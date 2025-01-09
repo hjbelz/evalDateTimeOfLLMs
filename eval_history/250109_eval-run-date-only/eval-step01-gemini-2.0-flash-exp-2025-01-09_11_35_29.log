@@ -1,0 +1,57 @@
+Running all prompts in 01_Date_Simple against model gemini-2.0-flash-exp
+-------------------------------------------------------------------------
+System prompt loaded from '01_Date_Simple/SYSTEM-date_simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_01.txt
+
+1. 2024-12-09
+2. Montag
+3. 2024-12-16
+4. Samstag
+5. 2024-12-23
+6. Freitag
+7. 2024-12-16
+8. 2024-12-30
+9. Mitteleuropäische Zeit (MEZ)
+
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_02.txt
+
+1. Mittwoch
+2. Ja
+3. 18.12.
+4. Donnerstag
+5. Freitag
+6. Nein
+7. Sonntag
+8. Nein
+9. Donnerstag
+
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_01.txt
+
+1. 2024-12-09
+2. Monday
+3. 2024-12-16
+4. Saturday
+5. 2024-12-23
+6. Friday
+7. 2024-12-16
+8. 2024-12-30
+9. CET (Central European Time)
+
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_02.txt
+
+Okay, here are the answers to your questions, based on the date of Monday, December 9th, 2024:
+
+1.  The day after tomorrow is **Wednesday**.
+2.  No, the 20th of December is not next week. It is in two weeks.
+3.  Wednesday next week is the **18th of December**.
+4.  In 35 days it will be a **Thursday**.
+5.  In 36 days it will be a **Friday**.
+6.  Yes, December 15th is a **Sunday**, so it is not a business day.
+7.  No, the 25th of December is **Christmas Day**, which is a public holiday in Germany and not a normal working day.
+8.  The second day of next year, January 2nd, 2025, will be a **Thursday**.
+
+-------------------------------------------------------------------------

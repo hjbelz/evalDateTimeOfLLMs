@@ -1,0 +1,90 @@
+Running all prompts in 01_Date_Simple against model claude-3.5-sonnet
+-------------------------------------------------------------------------
+System prompt loaded from '01_Date_Simple/SYSTEM-date_simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_01.txt
+
+Hier sind die Antworten basierend auf dem Datum Montag, 09. Dezember 2024:
+
+1. 2024-12-09
+
+2. Montag
+
+3. 16. Dezember 2024
+
+4. Samstag, 14. Dezember 2024
+
+5. 23. Dezember 2024
+
+6. Freitag, 31. Dezember 2027
+
+7. 16. Dezember 2024
+
+8. 30. Dezember 2024
+
+9. Deutschland liegt in der Zeitzone CET (Central European Time) im Winter bzw. CEST (Central European Summer Time) im Sommer. Im Dezember gilt die CET (UTC+1).
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_02.txt
+
+Basierend auf dem Datum Montag, 09. Dezember 2024, hier die Antworten:
+
+1. Mittwoch, 11. Dezember 2024
+
+2. Ja, der 20.12. ist in der nächsten Woche (Freitag)
+
+3. Mittwoch, 18. Dezember 2024
+
+4. In 35 Tagen ist Montag, 13. Januar 2025
+
+5. Am Tag danach (36 Tage) ist Dienstag, 14. Januar 2025
+
+6. Nein, der 15.12. ist kein Werktag, da es ein Sonntag ist
+
+7. Der 15.12. ist ein Sonntag
+
+8. Nein, der 25.12. ist kein normaler Arbeitstag, da es der erste Weihnachtsfeiertag ist (gesetzlicher Feiertag)
+
+9. Der 02.01.2025 ist ein Donnerstag
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_01.txt
+
+Based on today's date (Monday, 09 December 2024), here are the answers:
+
+1. 2024-12-09
+
+2. Monday
+
+3. Next Monday is December 16, 2024
+
+4. December 14, 2024 is a Saturday
+
+5. In 2 weeks it will be Monday, December 23, 2024
+
+6. December 31, 2027 is a Friday
+
+7. In 7 days it will be Monday, December 16, 2024
+
+8. In 3 weeks it will be Monday, December 30, 2024
+
+9. Germany is in the CET (Central European Time) timezone during winter months, which is UTC+1, and CEST (Central European Summer Time) during summer months, which is UTC+2. In December, it's CET (UTC+1).
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_02.txt
+
+Let me answer each question based on Monday, December 09, 2024:
+
+1. Wednesday, December 11, 2024
+
+2. Yes, December 20th is next week (it's a Friday)
+
+3. Wednesday next week is December 18, 2024
+
+4. In 35 days it will be Monday, January 13, 2025
+
+5. In 36 days it will be Tuesday, January 14, 2025
+
+6. December 15th, 2024 is a Sunday, so it's not a business day
+
+7. No, December 25th is not a normal working day as it's Christmas Day (a public holiday in Germany)
+
+8. The second day of next year (January 2, 2025) will be a Thursday
+-------------------------------------------------------------------------

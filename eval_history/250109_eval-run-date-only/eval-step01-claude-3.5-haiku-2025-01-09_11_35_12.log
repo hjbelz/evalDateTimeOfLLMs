@@ -1,0 +1,90 @@
+Running all prompts in 01_Date_Simple against model claude-3.5-haiku
+-------------------------------------------------------------------------
+System prompt loaded from '01_Date_Simple/SYSTEM-date_simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_01.txt
+
+Hier sind die Antworten basierend auf dem angegebenen Datum:
+
+1. 2024-12-09
+
+2. Montag
+
+3. 16.12.2024
+
+4. Samstag
+
+5. 23.12.2024
+
+6. Dienstag
+
+7. 16.12.2024
+
+8. 30.12.2024
+
+9. MEZ (Mitteleuropäische Zeit)
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_02.txt
+
+Hier sind die Antworten basierend auf dem aktuellen Datum (09.12.2024):
+
+1. Mittwoch (11.12.2024)
+
+2. Ja, der 20.12. ist in der nächsten Woche.
+
+3. Am Mittwoch nächster Woche ist der 18.12.2024.
+
+4. In 35 Tagen ist Donnerstag (13.01.2025)
+
+5. In 36 Tagen ist Freitag (14.01.2025)
+
+6. Ja, der 15.12. ist ein Werktag (Sonntag).
+
+7. Der 15.12. ist ein Sonntag.
+
+8. Nein, der 25.12. ist kein normaler Arbeitstag. Es ist der erste Weihnachtsfeiertag.
+
+9. Der 2. Januar 2025 ist ein Mittwoch.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_01.txt
+
+Here are the answers based on the given date of Monday, 09 December 2024:
+
+1. ISO format: 2024-12-09
+
+2. Today is Monday
+
+3. Next Monday will be 16 December 2024
+
+4. 14 December 2024 is a Saturday
+
+5. In 2 weeks, the date will be 23 December 2024
+
+6. 31.12.2027 is a Friday
+
+7. In 7 days, the date will be 16 December 2024
+
+8. In 3 weeks, the date will be 30 December 2024
+
+9. We are in the Central European Time (CET) zone, which is UTC+1 during standard time and UTC+2 during daylight saving time (which would be in effect in December)
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_02.txt
+
+I'll answer these questions based on the current date of Monday, 09 December 2024:
+
+1. The day after tomorrow is Wednesday, 11 December 2024.
+
+2. Yes, the 20th of December is next week.
+
+3. Wednesday next week is 18 December 2024.
+
+4. In 35 days from today (09 December 2024) will be Sunday, 14 January 2025.
+
+5. In 36 days from today (09 December 2024) will be Monday, 15 January 2025.
+
+6. December 15th (Sunday) is not a business day.
+
+7. The 25th of December (Wednesday) is Christmas Day (Weihnachtstag) and a public holiday in Germany, so it is not a normal working day.
+
+8. The second day of next year (02 January 2025) is a Thursday.
+-------------------------------------------------------------------------

@@ -1,0 +1,3 @@
+What time is it?
+What date ist it?
+In which timezone are we?

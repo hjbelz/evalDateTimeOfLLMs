@@ -1,0 +1,9 @@
+1. Welcher Tag ist übermorgen?
+2. Ist der 20.12. in der nächsten Woche?
+3. Welches Datum ist am Mittwoch nächster Woche?
+4. Welcher Wochentag ist in 35 Tagen?
+5. Und am Tag danach?
+6. Ist der 15.12. ein Werktag?
+7. Welcher Wochentag ist der 15.12.?
+8. Ist der 25.12. ein normaler Arbeitstag?
+9. Was ist der zweite erste nächsten Jahres für ein Wochentag?  

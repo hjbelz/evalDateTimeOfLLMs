@@ -1,0 +1,51 @@
+Running all prompts in 01_Date_Simple against model gpt-4o
+-------------------------------------------------------------------------
+System prompt loaded from '01_Date_Simple/SYSTEM-date_simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_01.txt
+
+1. Das Datum im ISO-Format ist 2024-12-09.
+2. Heute ist Montag.
+3. Der nächste Montag ist der 16. Dezember 2024.
+4. Der 14. Dezember 2024 ist ein Samstag.
+5. In 2 Wochen ist der 23. Dezember 2024.
+6. Der 31. Dezember 2027 ist ein Freitag.
+7. In 7 Tagen ist der 16. Dezember 2024.
+8. In 3 Wochen ist der 30. Dezember 2024.
+9. Wir sind in der Mitteleuropäischen Zeit (MEZ), die UTC+1 entspricht.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_02.txt
+
+1. Übermorgen ist Mittwoch, der 11. Dezember 2024.
+2. Nein, der 20. Dezember 2024 ist nicht in der nächsten Woche. Die nächste Woche beginnt am Montag, den 16. Dezember, und endet am Sonntag, den 22. Dezember.
+3. Mittwoch nächster Woche ist der 18. Dezember 2024.
+4. In 35 Tagen ist Montag, der 13. Januar 2025.
+5. Der Tag danach ist Dienstag, der 14. Januar 2025.
+6. Ja, der 15. Dezember 2024 ist ein Werktag, da es ein Sonntag ist und in Deutschland Sonntage keine regulären Arbeitstage sind.
+7. Der 15. Dezember 2024 ist ein Sonntag.
+8. Der 25. Dezember 2024 ist kein normaler Arbeitstag, da es sich um den ersten Weihnachtstag handelt, der in Deutschland ein gesetzlicher Feiertag ist.
+9. Der zweite Januar 2025 ist ein Donnerstag.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_01.txt
+
+1. The date in ISO format is 2024-12-09.
+2. Today is Monday.
+3. Next Monday is 2024-12-16.
+4. 14 December 2024 is a Saturday.
+5. In 2 weeks, the date will be 2023-12-23.
+6. 31 December 2027 is a Friday.
+7. In 7 days, the date will be 2024-12-16.
+8. In 3 weeks, the date will be 2024-12-30.
+9. Germany is in the Central European Time (CET) zone.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_02.txt
+
+1. The day after tomorrow is Wednesday, 11 December 2024.
+2. The 20th of December 2024 is not next week; it falls on the Friday of the week after next.
+3. Wednesday next week is 18 December 2024.
+4. In 35 days, it will be Monday, 13 January 2025.
+5. In 36 days, it will be Tuesday, 14 January 2025.
+6. December 15th, 2024, is a Sunday, so it is not a business day.
+7. The 25th of December is Christmas Day, which is a public holiday in Germany, so it is not a normal working day.
+8. The second day of next year, 2 January 2025, is a Thursday.
+-------------------------------------------------------------------------

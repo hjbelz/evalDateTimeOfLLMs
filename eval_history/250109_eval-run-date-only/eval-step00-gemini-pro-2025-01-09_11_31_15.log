@@ -1,0 +1,12 @@
+Running all prompts in 00_DateTime_Not_provided against model gemini-pro
+-------------------------------------------------------------------------
+No system prompt found. Using only prompt files.
+-------------------------------------------------------------------------
+--- Prompt file 00_DateTime_Not_provided/PROMPT-datetime_not_provided_EN_01.txt
+
+**Current Time:** 10:05 AM
+
+**Current Date:** March 8, 2023
+
+**Current Timezone:** Pacific Standard Time (PST)
+-------------------------------------------------------------------------

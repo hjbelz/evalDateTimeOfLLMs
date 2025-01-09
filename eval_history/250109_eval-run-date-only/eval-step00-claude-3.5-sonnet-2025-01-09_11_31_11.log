@@ -1,0 +1,8 @@
+Running all prompts in 00_DateTime_Not_provided against model claude-3.5-sonnet
+-------------------------------------------------------------------------
+No system prompt found. Using only prompt files.
+-------------------------------------------------------------------------
+--- Prompt file 00_DateTime_Not_provided/PROMPT-datetime_not_provided_EN_01.txt
+
+I don't have access to real-time information. I cannot tell you the current time, date, or timezone. You would need to check your local device (phone, computer, watch) or other time-keeping sources for this information.
+-------------------------------------------------------------------------

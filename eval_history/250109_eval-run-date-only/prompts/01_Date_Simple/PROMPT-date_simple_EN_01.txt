@@ -1,0 +1,9 @@
+1. Which date do we have in ISO format?
+2. Which day of the week is today?
+3. Which date is next Monday?
+4. Which day of the week is 14 December?
+5. Which date is in 2 weeks?
+6. Which day of the week is on 31.12.2027?
+7. Which date is in 7 days?
+8. Which date is in 3 weeks?
+9. Which time zone are we in?

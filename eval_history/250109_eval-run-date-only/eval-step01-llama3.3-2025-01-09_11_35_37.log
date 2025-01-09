@@ -1,0 +1,79 @@
+Running all prompts in 01_Date_Simple against model llama3.3
+-------------------------------------------------------------------------
+System prompt loaded from '01_Date_Simple/SYSTEM-date_simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_01.txt
+
+Ich helfe Ihnen gerne bei Ihren Fragen:
+
+1. Das heutige Datum im ISO-Format ist: 2024-12-09
+2. Heute ist Montag.
+3. Der nächste Montag ist am 16. Dezember 2024.
+4. Am 14. Dezember 2024 ist ein Samstag.
+5. In zwei Wochen, also am 23. Dezember 2024.
+6. Um den Wochentag am 31. Dezember 2027 zu bestimmen, muss ich berechnen: Der 31. Dezember 2027 ist ein Freitag.
+7. In sieben Tagen, also am 16. Dezember 2024.
+8. In drei Wochen, also am 30. Dezember 2024.
+9. Wir befinden uns in der deutschen Zeitzone, die als Mitteleuropäische Zeit (MEZ) bezeichnet wird und UTC+1 entspricht. Während der Sommerzeit gilt die Mitteleuropäische Sommerzeit (MESZ), die UTC+2 entspricht. Da das Datum jedoch im Dezember liegt, sind wir in der Standardzeit, also MEZ (UTC+1).
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_DE_02.txt
+
+Ich helfe Ihnen gerne bei Ihren Fragen:
+
+1. Heute ist der 09. Dezember, also ist übermorgen der **11. Dezember** und dieser Tag ist ein **Dienstag**.
+
+2. Der 20. Dezember fällt in die nächste Woche, da heute der 9. Dezember ist. Also **ja**, der 20. Dezember ist in der nächsten Woche.
+
+3. Heute ist Montag, der 09. Dezember. Wenn wir eine Woche zählen, kommt der nächste Mittwoch auf den **18. Dezember**.
+
+4. In 35 Tagen wäre es der **13. Januar 2025**, und dieser Tag ist ein **Montag**.
+
+5. Der Tag danach, also in 36 Tagen, wäre der **14. Januar 2025**, und dieser Tag ist ein **Dienstag**.
+
+6. Der 15. Dezember ist ein **Samstag** und somit kein Werktag.
+
+7. Wie bereits erwähnt, ist der 15. Dezember ein **Samstag**.
+
+8. Der 25. Dezember ist in Deutschland ein Feiertag (Weihnachten) und somit kein normaler Arbeitstag.
+
+9. Ich interpretiere Ihre Frage so, dass Sie nach dem zweiten Tag des nächsten Jahres fragen. Das nächste Jahr beginnt am **01. Januar 2025**, und dieser Tag ist ein **Mittwoch**. Der zweite Tag des nächsten Jahres wäre also der **02. Januar 2025**, und dieser Tag ist ein **Donnerstag**.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_01.txt
+
+I'll answer your questions based on the given date: Monday, 09 December 2024.
+
+1. The date in ISO format is: 2024-12-09
+2. Today is a Monday.
+3. Next Monday would be: 16 December 2024
+4. 14 December 2024 is a Saturday.
+5. In 2 weeks, the date would be: 23 December 2024
+6. To determine the day of the week for 31 December 2027, we need to calculate it: 
+   31 December 2027 is a Friday.
+7. In 7 days, the date would be: 16 December 2024
+8. In 3 weeks, the date would be: 30 December 2024
+9. We are in the German time zone, which is Central European Time (CET) during standard time and Central European Summer Time (CEST) during daylight saving time. Since the date given is in December, we are currently in CET.
+-------------------------------------------------------------------------
+--- Prompt file 01_Date_Simple/PROMPT-date_simple_EN_02.txt
+
+I'll answer your questions based on the given date: Monday, 09 December 2024.
+
+1. Today is Monday, so tomorrow is Tuesday, and the day after tomorrow is Wednesday.
+2. Next week starts on Monday, the 16th of December. The 20th of December would be Friday of next week, which means it is indeed next week.
+3. If today is Monday, the 9th, then next Monday is the 16th. Counting forward, Tuesday is the 17th, Wednesday is the 18th, Thursday is the 19th, Friday is the 20th, Saturday is the 21st, and Sunday is the 22nd. Therefore, Wednesday next week is the 18th of December.
+4. To find out which day of the week it will be in 35 days, we start counting from the 9th of December: 
+   - December has 31 days, so the remaining days in December after the 9th are 22 (31-9=22). 
+   - 35 days - 22 days = 13 days into January.
+   - Since today is Monday, we count forward: 
+     - The rest of December (22 days) will include 3 full weeks (21 days) and 1 additional day, which brings us to Tuesday, the 31st of December.
+     - Then, counting the 13 days into January: 
+       - Wednesday (1st), Thursday (2nd), Friday (3rd), Saturday (4th), Sunday (5th), Monday (6th), Tuesday (7th), Wednesday (8th), Thursday (9th), Friday (10th), Saturday (11th), Sunday (12th), and Monday (13th).
+   - Therefore, in 35 days, it will be Monday, the 13th of January.
+5. Adding one more day to the result from question 4:
+   - If in 35 days it will be Monday, the 13th of January, then in 36 days it will be Tuesday, the 14th of January.
+6. December 15th is a Sunday, which is not a business day in Germany.
+7. The 25th of December is Christmas Day, which is a public holiday in Germany and not a normal working day.
+8. To find out which day of the week the second day of next year will be:
+   - This year (2024) ends on Tuesday, the 31st of December.
+   - Therefore, the first day of next year (2025) is Wednesday, the 1st of January.
+   - The second day of next year would then be Thursday, the 2nd of January.
+-------------------------------------------------------------------------
