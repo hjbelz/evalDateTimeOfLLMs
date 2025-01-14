@@ -19,7 +19,7 @@ fi
 ./evalDatePrompts.sh claude-3.5-haiku "$promptPath"
 
 # Google Gemini
-./evalDatePrompts.sh gemini-pro "$promptPath"
+./evalDatePrompts.sh gemini-1.5-pro-latest "$promptPath"
 ./evalDatePrompts.sh gemini-2.0-flash-exp "$promptPath"
 
 # Llama by Meta (local)

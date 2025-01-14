@@ -1,0 +1,11 @@
+This is a list of times:
+<times>07:30, 09:32, 10:18, 12:13, 14:22, 17:10, 18:02, 19:08, 20:21</times>
+Answer the following questions:
+
+1. Which of the times are in the afternoon?
+2. Which of the times are in the morning?
+3. Which of the times are around noon?
+4. Are any of the times in the evening?
+5. Which of them would be suitable suggestions if I am looking for times outside normal office hours?
+6. Which time will you suggest, if I ask you for a time from the list that is as early as possible?
+7. What is the latest time?

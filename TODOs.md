@@ -2,7 +2,7 @@
 
 ## TODOs
 
-- [ ] Put project into GitHub?
+- [X] Put project into GitHub?
 - [X] Study and understand model parameters => set accordingly 
 - [X] New version of the prompts returning structured data
 - [X] Format prompts with XML
@@ -30,6 +30,7 @@
 ### Guardrails
 - Recognize questions outside the topic of appointment negotiations
 - Make sure it only suggests dates from the list of available slots
+- check dates provided by AI for validity
 
 
 

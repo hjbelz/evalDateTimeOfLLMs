@@ -1,0 +1,7 @@
+1. If it is currently 14:00, what time is it in two hours?
+2. If it is currently a quarter past nine, what time is it in 42 minutes?  
+3. Sort these times in ascending order: 22:48, 13:56, 8:31, 22:37, 0:27, half past ten in the morning
+4. List the following times in the format "HH:mm" in ascending order: 10 minutes til midnight, noon, a quarter to eight, at six in the evening, six past one at noon
+5. Which appointment is earlier, the one at 07:00 on March 6th or the one at 8:00 on March 4th?
+
+
