@@ -1,0 +1,494 @@
+Running all prompts in 05_Preferences_Structured_CoT against model gemini-1.5-pro-latest
+-------------------------------------------------------------------------
+System prompt loaded from '05_Preferences_Structured_CoT/SYSTEM-Preferences_Structured_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_01_ASAP.txt
+
+<analysis>
+1. As soon as possible (implying this week if available)
+</analysis>
+
+<slot_comparison>
+[Tuesday,    21 January 2025, 09:00-10:00]:
+- Preference 1: Match
+
+[Tuesday,    21 January 2025, 15:00-16:00]:
+- Preference 1: Match
+
+[Wednesday,  22 January 2025, 11:00-12:00]:
+- Preference 1: Match
+
+[Wednesday,  22 January 2025, 13:00-14:00]:
+- Preference 1: Match
+
+[Wednesday,  22 January 2025, 17:00-18:00]:
+- Preference 1: Match
+
+[Friday,     24 January 2025, 08:00-09:00]:
+- Preference 1: Match
+
+[Friday,     24 January 2025, 09:00-10:00]:
+- Preference 1: Match
+
+[Monday,     27 January 2025, 09:00-10:00]:
+- Preference 1: Match
+
+[Monday,     27 January 2025, 16:00-17:00]:
+- Preference 1: Match
+
+[Tuesday,    28 January 2025, 09:00-10:00]:
+- Preference 1: Match
+
+[Tuesday,    28 January 2025, 12:00-13:00]:
+- Preference 1: Match
+
+[Wednesday,  29 January 2025, 15:00-16:00]:
+- Preference 1: Match
+
+[Thursday,   30 January 2025, 12:30-13:30]:
+- Preference 1: Match
+
+[Friday,     31 January 2025, 12:00-13:00]:
+- Preference 1: Match
+
+[Friday,     31 January 2025, 18:30-19:30]:
+- Preference 1: Match
+
+Earliest available slot is Tuesday, 21 January 2025, 09:00-10:00
+</slot_comparison>
+
+<response>
+We have an appointment available on Tuesday, January 21st, from 09:00-10:00. Does that work for you?
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_02_WED_morning.txt
+
+<analysis>
+1. Day: Wednesday
+2. Time: Early morning
+</analysis>
+
+<slot_comparison>
+[Tuesday, 21 January 2025, 09:00-10:00]:
+- Day: No match
+- Time: No match
+
+[Tuesday, 21 January 2025, 15:00-16:00]:
+- Day: No match
+- Time: No match
+
+[Wednesday, 22 January 2025, 11:00-12:00]:
+- Day: Match
+- Time: No match
+
+[Wednesday, 22 January 2025, 13:00-14:00]:
+- Day: Match
+- Time: No match
+
+[Wednesday, 22 January 2025, 17:00-18:00]:
+- Day: Match
+- Time: No match
+
+[Friday, 24 January 2025, 08:00-09:00]:
+- Day: No match
+- Time: No match
+
+[Friday, 24 January 2025, 09:00-10:00]:
+- Day: No match
+- Time: No match
+
+[Monday, 27 January 2025, 09:00-10:00]:
+- Day: No match
+- Time: No match
+
+[Monday, 27 January 2025, 16:00-17:00]:
+- Day: No match
+- Time: No match
+
+[Tuesday, 28 January 2025, 09:00-10:00]:
+- Day: No match
+- Time: No match
+
+[Tuesday, 28 January 2025, 12:00-13:00]:
+- Day: No match
+- Time: No match
+
+[Wednesday, 29 January 2025, 15:00-16:00]:
+- Day: Match
+- Time: No match
+
+[Thursday, 30 January 2025, 12:30-13:30]:
+- Day: No match
+- Time: No match
+
+[Friday, 31 January 2025, 12:00-13:00]:
+- Day: No match
+- Time: No match
+
+[Friday, 31 January 2025, 18:30-19:30]:
+- Day: No match
+- Time: No match
+
+
+Unfortunately, we don't have anything early in the morning on Wednesdays. The earliest we have on a Wednesday is 11:00-12:00 on 22 January and 15:00-16:00 on 29 January.
+</slot_comparison>
+
+<response>
+I'm sorry, we don't have any appointments available on a Wednesday in the early morning.  The earliest we have on a Wednesday is 11:00-12:00 on 22 January and 15:00-16:00 on 29 January.
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_03_very early.txt
+
+<analysis>
+1. Time: Around 8 a.m.
+2. Day: Any day
+</analysis>
+
+<slot_comparison>
+[Tuesday,    21 January 2025, 09:00-10:00]:
+- Time: No match
+- Day: Match
+
+[Tuesday,    21 January 2025, 15:00-16:00]:
+- Time: No match
+- Day: Match
+
+[Wednesday,  22 January 2025, 11:00-12:00]:
+- Time: No match
+- Day: Match
+
+[Wednesday,  22 January 2025, 13:00-14:00]:
+- Time: No match
+- Day: Match
+
+[Wednesday,  22 January 2025, 17:00-18:00]:
+- Time: No match
+- Day: Match
+
+[Friday,     24 January 2025, 08:00-09:00]:
+- Time: Match
+- Day: Match
+
+[Friday,     24 January 2025, 09:00-10:00]:
+- Time: No match
+- Day: Match
+
+[Monday,     27 January 2025, 09:00-10:00]:
+- Time: No match
+- Day: Match
+
+[Monday,     27 January 2025, 16:00-17:00]:
+- Time: No match
+- Day: Match
+
+[Tuesday,    28 January 2025, 09:00-10:00]:
+- Time: No match
+- Day: Match
+
+[Tuesday,    28 January 2025, 12:00-13:00]:
+- Time: No match
+- Day: Match
+
+[Wednesday,  29 January 2025, 15:00-16:00]:
+- Time: No match
+- Day: Match
+
+[Thursday,   30 January 2025, 12:30-13:30]:
+- Time: No match
+- Day: Match
+
+[Friday,     31 January 2025, 12:00-13:00]:
+- Time: No match
+- Day: Match
+
+[Friday,     31 January 2025, 18:30-19:30]:
+- Time: No match
+- Day: Match
+
+Best slot: Friday, 24 January 2025, 08:00-09:00
+</slot_comparison>
+
+<response>
+We have an appointment available for you on Friday, January 24th, from 8:00 to 9:00 a.m.
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_04_noon.txt
+
+<analysis>
+1. Time: Noon (12:00)
+2. Days: Weekdays (implicitly, due to lunch break context)
+</analysis>
+
+<slot_comparison>
+[Tuesday,    21 January 2025, 09:00-10:00]:
+- Time: No match
+- Weekday: Match
+
+[Tuesday,    21 January 2025, 15:00-16:00]:
+- Time: No match
+- Weekday: Match
+
+[Wednesday,  22 January 2025, 11:00-12:00]:
+- Time: No match
+- Weekday: Match
+
+[Wednesday,  22 January 2025, 13:00-14:00]:
+- Time: No match
+- Weekday: Match
+
+[Wednesday,  22 January 2025, 17:00-18:00]:
+- Time: No match
+- Weekday: Match
+
+[Friday,     24 January 2025, 08:00-09:00]:
+- Time: No match
+- Weekday: Match
+
+[Friday,     24 January 2025, 09:00-10:00]:
+- Time: No match
+- Weekday: Match
+
+[Monday,     27 January 2025, 09:00-10:00]:
+- Time: No match
+- Weekday: Match
+
+[Monday,     27 January 2025, 16:00-17:00]:
+- Time: No match
+- Weekday: Match
+
+[Tuesday,    28 January 2025, 09:00-10:00]:
+- Time: No match
+- Weekday: Match
+
+[Tuesday,    28 January 2025, 12:00-13:00]:
+- Time: Match
+- Weekday: Match
+
+[Wednesday,  29 January 2025, 15:00-16:00]:
+- Time: No match
+- Weekday: Match
+
+[Thursday,   30 January 2025, 12:30-13:30]:
+- Time: No match
+- Weekday: Match
+
+[Friday,     31 January 2025, 12:00-13:00]:
+- Time: Match
+- Weekday: Match
+
+[Friday,     31 January 2025, 18:30-19:30]:
+- Time: No match
+- Weekday: Match
+
+
+[Determination of best course of action]
+Two slots match all criteria. Suggest the earliest one.
+</slot_comparison>
+
+<response>
+We have a slot available on Tuesday, 28 January 2025, from 12:00 to 13:00.  Does that work for you?
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_05_travelling
+
+<analysis>
+The customer will be unavailable until the 28th of January. This implies they are available from the 28th onwards.
+1. Date: From 28th January onwards.
+</analysis>
+
+<slot_comparison>
+[Tuesday,    21 January 2025, 09:00-10:00]: No match (before 28th)
+[Tuesday,    21 January 2025, 15:00-16:00]: No match (before 28th)
+[Wednesday,  22 January 2025, 11:00-12:00]: No match (before 28th)
+[Wednesday,  22 January 2025, 13:00-14:00]: No match (before 28th)
+[Wednesday,  22 January 2025, 17:00-18:00]: No match (before 28th)
+[Friday,     24 January 2025, 08:00-09:00]: No match (before 28th)
+[Friday,     24 January 2025, 09:00-10:00]: No match (before 28th)
+[Monday,     27 January 2025, 09:00-10:00]: No match (before 28th)
+[Monday,     27 January 2025, 16:00-17:00]: No match (before 28th)
+[Tuesday,    28 January 2025, 09:00-10:00]: Match
+[Tuesday,    28 January 2025, 12:00-13:00]: Match
+[Wednesday,  29 January 2025, 15:00-16:00]: Match
+[Thursday,   30 January 2025, 12:30-13:30]: Match
+[Friday,     31 January 2025, 12:00-13:00]: Match
+[Friday,     31 January 2025, 18:30-19:30]: Match
+
+Earliest matching slot: Tuesday, 28 January 2025, 09:00-10:00
+</slot_comparison>
+
+<response>
+We have appointments available from Tuesday, 28 January onwards. Would 9:00-10:00 on that day work for you?
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_06_end of next week.txt
+
+<analysis>
+1. End of next week (interpreted as Thursday or Friday)
+</analysis>
+
+<slot_comparison>
+[Tuesday,    21 January 2025, 09:00-10:00]: No match (wrong week)
+[Tuesday,    21 January 2025, 15:00-16:00]: No match (wrong week)
+[Wednesday,  22 January 2025, 11:00-12:00]: No match (wrong week)
+[Wednesday,  22 January 2025, 13:00-14:00]: No match (wrong week)
+[Wednesday,  22 January 2025, 17:00-18:00]: No match (wrong week)
+[Friday,     24 January 2025, 08:00-09:00]: No match (wrong week)
+[Friday,     24 January 2025, 09:00-10:00]: No match (wrong week)
+[Monday,     27 January 2025, 09:00-10:00]: No match (beginning of the week)
+[Monday,     27 January 2025, 16:00-17:00]: No match (beginning of the week)
+[Tuesday,    28 January 2025, 09:00-10:00]: No match (beginning of the week)
+[Tuesday,    28 January 2025, 12:00-13:00]: No match (beginning of the week)
+[Wednesday,  29 January 2025, 15:00-16:00]: No match (middle of the week)
+[Thursday,   30 January 2025, 12:30-13:30]: Match
+[Friday,     31 January 2025, 12:00-13:00]: Match
+[Friday,     31 January 2025, 18:30-19:30]: Match
+
+Best options are Thursday, January 30th from 12:30-13:30, Friday, January 31st from 12:00-13:00 or Friday, January 31st from 18:30-19:30.
+</slot_comparison>
+
+<response>
+We have appointments available on Thursday, January 30th from 12:30-13:30, Friday, January 31st from 12:00-13:00 or Friday, January 31st from 18:30-19:30.  Which one works best for you?
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+<analysis>
+1. Day: Wednesday, Thursday or Friday next week (29th, 30th or 31st January)
+2. Time: Evening
+</analysis>
+
+<slot_comparison>
+[Wednesday,  29 January 2025, 15:00-16:00]:
+- Day: Match
+- Time: No match (Afternoon)
+
+[Thursday,   30 January 2025, 12:30-13:30]:
+- Day: Match
+- Time: No match (Afternoon)
+
+[Friday,     31 January 2025, 12:00-13:00]:
+- Day: Match
+- Time: No match (Afternoon)
+
+[Friday,     31 January 2025, 18:30-19:30]:
+- Day: Match
+- Time: Match
+
+</slot_comparison>
+
+<response>
+We have an appointment available on Friday, January 31st from 18:30-19:30. Does that work for you?
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.md
+
+<analysis>
+1. Day: Any day next week (starting Monday, January 27th)
+2. Time: Avoid Monday morning
+</analysis>
+
+<slot_comparison>
+[Monday, 27 January 2025, 09:00-10:00]:
+- Preference 1: Match
+- Preference 2: No match
+
+[Monday, 27 January 2025, 16:00-17:00]:
+- Preference 1: Match
+- Preference 2: Match
+
+[Tuesday, 28 January 2025, 09:00-10:00]:
+- Preference 1: Match
+- Preference 2: Match
+
+[Tuesday, 28 January 2025, 12:00-13:00]:
+- Preference 1: Match
+- Preference 2: Match
+
+[Wednesday, 29 January 2025, 15:00-16:00]:
+- Preference 1: Match
+- Preference 2: Match
+
+[Thursday, 30 January 2025, 12:30-13:30]:
+- Preference 1: Match
+- Preference 2: Match
+
+[Friday, 31 January 2025, 12:00-13:00]:
+- Preference 1: Match
+- Preference 2: Match
+
+[Friday, 31 January 2025, 18:30-19:30]:
+- Preference 1: Match
+- Preference 2: Match
+
+The slots that fit all preferences are: Monday afternoon, or any time Tuesday through Friday next week.
+</slot_comparison>
+
+<response>
+We have several slots available next week.  Would Monday at 16:00, Tuesday at 09:00 or 12:00, Wednesday at 15:00, Thursday at 12:30, or Friday at 12:00 or 18:30 work for you?
+</response>
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.md
+
+<analysis>
+1. Time: Around noon (12:00)
+2. Week: Next week (starting Monday, January 27th)
+3. Day Exclusion: Not Tuesday
+</analysis>
+
+<slot_comparison>
+[Monday,     27 January 2025, 09:00-10:00]:
+- Time: No match
+- Week: Match
+- Day Exclusion: Match
+
+[Monday,     27 January 2025, 16:00-17:00]:
+- Time: No match
+- Week: Match
+- Day Exclusion: Match
+
+[Tuesday,    28 January 2025, 09:00-10:00]:
+- Time: No match
+- Week: Match
+- Day Exclusion: No match
+
+[Tuesday,    28 January 2025, 12:00-13:00]:
+- Time: Match
+- Week: Match
+- Day Exclusion: No match
+
+[Wednesday,  29 January 2025, 15:00-16:00]:
+- Time: No match
+- Week: Match
+- Day Exclusion: Match
+
+[Thursday,   30 January 2025, 12:30-13:30]:
+- Time: Match
+- Week: Match
+- Day Exclusion: Match
+
+[Friday,     31 January 2025, 12:00-13:00]:
+- Time: Match
+- Week: Match
+- Day Exclusion: Match
+
+[Friday,     31 January 2025, 18:30-19:30]:
+- Time: No match
+- Week: Match
+- Day Exclusion: Match
+
+The closest matching slots are Thursday, January 30th at 12:30 and Friday, January 31st at 12:00.
+</slot_comparison>
+
+<response>
+We have appointments available on Thursday, January 30th at 12:30 and Friday, January 31st at 12:00.  Which one works best for you?
+</response>
+
+-------------------------------------------------------------------------

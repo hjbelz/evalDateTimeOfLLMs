@@ -1,0 +1,107 @@
+Running all prompts in 04_Preferences_Simple against model claude-3.5-sonnet
+-------------------------------------------------------------------------
+System prompt loaded from '04_Preferences_Simple/SYSTEM-Preferences_Simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_01_ASAP.txt
+
+Looking at the available slots, I can offer you the earliest appointment tomorrow:
+
+Tuesday, 21 January 2025, 09:00-10:00
+
+Would this time work for you?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_02_WED_morning.txt
+
+Let me check the available Wednesday appointments for you.
+
+Looking at the available slots on Wednesdays, I can see:
+- Wednesday, 22 January: 11:00-12:00, 13:00-14:00, and 17:00-18:00
+- Wednesday, 29 January: 15:00-16:00
+
+I apologize, but while we have several Wednesday slots available, none of them are really early in the morning. The earliest Wednesday appointment we have is at 11:00 AM. 
+
+Would you like me to suggest an alternative time, or would you prefer to consider one of these later Wednesday slots?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_03_very early.txt
+
+Looking at the available slots, I can find only one appointment that matches your early morning preference:
+
+Friday, 24 January 2025, 08:00-09:00
+
+This is the only 8:00 AM slot available. While we have several 9:00 AM appointments available, you specifically mentioned preferring around 8:00 AM, so I'm suggesting this one slot that best matches your preference.
+
+Would you like to book this early morning appointment?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_04_noon.txt
+
+Looking at slots around noon (11:00-13:30), I can offer you these matching appointments:
+
+- Wednesday, 22 January: 11:00-12:00
+- Tuesday, 28 January: 12:00-13:00
+- Thursday, 30 January: 12:30-13:30
+- Friday, 31 January: 12:00-13:00
+
+Would any of these slots work for you? They all fall within typical lunch break hours.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_05_travelling
+
+I understand that you will be unavailable from Tuesday, January 21st until Tuesday, January 28th, 2025.
+
+Looking at the available slots after your return, I can suggest the following appointments:
+- Tuesday, January 28th at 09:00-10:00
+- Tuesday, January 28th at 12:00-13:00
+- Wednesday, January 29th at 15:00-16:00
+- Thursday, January 30th at 12:30-13:30
+- Friday, January 31st at 12:00-13:00
+- Friday, January 31st at 18:30-19:30
+
+Would any of these slots work for you?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_06_end of next week.txt
+
+Looking at the end of next week (around Thursday/Friday, January 23-24, 2025), I can offer you these appointments on Friday, January 24:
+
+- Friday, January 24 at 08:00-09:00
+- Friday, January 24 at 09:00-10:00
+
+Would either of these times work for you? If you need a different time, just let me know your preferences.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+Let me check the available slots between Wednesday, January 22 and Friday, January 24, with a preference for evening appointments.
+
+Looking at those dates, I can offer:
+Wednesday, January 22 at 17:00-18:00, which is the best match as it's the latest time slot available in your specified date range.
+
+Other slots are available on those days but are earlier:
+- Wednesday, January 22: 11:00-12:00 and 13:00-14:00
+- Friday, January 24: 08:00-09:00 and 09:00-10:00
+
+Would the Wednesday evening slot at 17:00-18:00 work for you?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.md
+
+Based on your preferences for next week (27-31 January) and avoiding Monday morning, I can suggest the following suitable appointment slots:
+
+1. Monday, 27 January, 16:00-17:00 (afternoon slot)
+2. Tuesday, 28 January, 09:00-10:00 or 12:00-13:00
+3. Wednesday, 29 January, 15:00-16:00
+4. Thursday, 30 January, 12:30-13:30
+5. Friday, 31 January, 12:00-13:00 or 18:30-19:30
+
+Would any of these slots work for you?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.md
+
+Let me check the available slots for next week (27-31 January) around noon, excluding Tuesday.
+
+Matching slots:
+- Thursday, 30 January, 12:30-13:30
+- Friday, 31 January, 12:00-13:00
+
+I can offer you either of these appointments:
+1. Thursday at 12:30 PM
+2. Friday at 12:00 PM
+
+Both slots are around noon as requested and are not on Tuesday. Would either of these times work for you?
+-------------------------------------------------------------------------

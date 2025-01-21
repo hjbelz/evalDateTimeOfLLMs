@@ -1,0 +1,1 @@
+I can do any day next week, but please avoid Monday morning.

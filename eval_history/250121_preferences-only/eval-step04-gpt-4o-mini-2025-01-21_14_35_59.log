@@ -1,0 +1,44 @@
+Running all prompts in 04_Preferences_Simple against model gpt-4o-mini
+-------------------------------------------------------------------------
+System prompt loaded from '04_Preferences_Simple/SYSTEM-Preferences_Simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_01_ASAP.txt
+
+The earliest available appointment slot is on Tuesday, 21 January 2025, from 09:00 to 10:00. Would you like to book this slot?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_02_WED_morning.txt
+
+I apologize, but there are no available appointment slots on Wednesday morning. The closest available slot on Wednesday is from 11:00 to 12:00. Would you like to schedule that?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_03_very early.txt
+
+I'm sorry, but there are no available slots at 8 a.m. that match your preference. The closest available slot in the morning is on Friday, 24 January 2025, from 09:00 to 10:00. Would you like to book that slot?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_04_noon.txt
+
+I'm sorry, but there are no available appointment slots at noon that match your preference. The closest available slot is on Wednesday, 22 January 2025, from 11:00 to 12:00. Would you like to book that slot?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_05_travelling
+
+I apologize, but since you are traveling from tomorrow until the 28th, the next available appointment slot after your return is on Monday, 27 January 2025, at 09:00-10:00. Would you like to book this slot?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_06_end of next week.txt
+
+I apologize, but there are no available appointment slots at the end of next week. The closest available slot is on Friday, 24 January 2025, from 08:00 to 09:00. Would you like to book that?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+I apologize, but there are no available slots in the evening between Wednesday and Friday next week. The closest available slot is on Wednesday, 22 January 2025, from 17:00 to 18:00. Would you like to book this slot?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.md
+
+I found several available slots for next week, but unfortunately, all the Monday slots are in the morning. The closest available slot that avoids Monday morning is:
+
+- Tuesday, 21 January 2025, 09:00-10:00
+
+Would you like to book this slot or would you prefer another day?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.md
+
+I apologize, but there are no available slots around noon next week except for Tuesday. The closest available slot around noon is on Wednesday, 22 January 2025, from 11:00 to 12:00. Would you like to book that slot?
+-------------------------------------------------------------------------

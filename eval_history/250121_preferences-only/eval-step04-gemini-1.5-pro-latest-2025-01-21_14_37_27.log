@@ -1,0 +1,58 @@
+Running all prompts in 04_Preferences_Simple against model gemini-1.5-pro-latest
+-------------------------------------------------------------------------
+System prompt loaded from '04_Preferences_Simple/SYSTEM-Preferences_Simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_01_ASAP.txt
+
+The earliest available appointment is tomorrow, Tuesday, January 21st, from 09:00-10:00. Does that work for you?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_02_WED_morning.txt
+
+I apologize, but we don't have any appointments available on Wednesday mornings.  The earliest we have on Wednesday is 11:00-12:00.  Would that work, or is there another day that might be suitable?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_03_very early.txt
+
+I'm sorry, but we don't have any appointments available at 8:00 a.m.  The closest available appointment is on Friday, January 24th, from 9:00 to 10:00 a.m.
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_04_noon.txt
+
+I'm sorry, but none of our currently available appointments are at noon. The closest available options are 12:00-13:00 on Tuesday, January 28th, and 12:30-13:30 on Thursday, January 30th.  Would either of those work for you?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_05_travelling
+
+I understand you are travelling from tomorrow, January 21st, until the 28th.  Therefore, you are available from the 29th onwards.
+
+The closest available appointment we have is on Wednesday, January 29th, from 15:00-16:00.  Would that work for you?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_06_end of next week.txt
+
+Unfortunately, I don't have anything available at the very end of next week.  The closest I have is Thursday, January 30th, from 12:30-13:30.  Would that work, or would you prefer a different time?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+I apologize, but we do not have any appointments available that perfectly match your request for an evening appointment between Wednesday and Friday next week.  The closest available option is Wednesday, January 29th, from 15:00-16:00.  Would that work for you, or would you prefer I check for alternative dates/times?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.md
+
+Okay, next week avoids Monday morning.  I have the following appointments available for you:
+
+* Tuesday,    28 January 2025, 09:00-10:00
+* Tuesday,    28 January 2025, 12:00-13:00
+* Wednesday,  29 January 2025, 15:00-16:00
+* Thursday,   30 January 2025, 12:30-13:30
+* Friday,     31 January 2025, 12:00-13:00
+* Friday,     31 January 2025, 18:30-19:30
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.md
+
+I'm sorry, but we don't have any appointments available around noon next week, except for Tuesday.  The closest available slot is Wednesday, January 29th, from 15:00-16:00.  Would that work for you, or would you prefer a different day/time?
+
+-------------------------------------------------------------------------

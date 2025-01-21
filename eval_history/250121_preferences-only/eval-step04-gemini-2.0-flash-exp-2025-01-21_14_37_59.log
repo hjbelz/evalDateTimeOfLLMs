@@ -1,0 +1,91 @@
+Running all prompts in 04_Preferences_Simple against model gemini-2.0-flash-exp
+-------------------------------------------------------------------------
+System prompt loaded from '04_Preferences_Simple/SYSTEM-Preferences_Simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_01_ASAP.txt
+
+Okay, I understand you'd like an appointment as soon as possible. The earliest available slot is on Tuesday, 21 January 2025, from 09:00-10:00. Would that work for you?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_02_WED_morning.txt
+
+I'm sorry, but there are no available slots on Wednesday morning. The earliest slot on Wednesday is from 11:00 to 12:00. Would you like to book that slot?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_03_very early.txt
+
+Okay, I understand you're looking for an appointment first thing in the morning, around 8 a.m.
+
+The closest available slots to your preference are on Friday, 24 January 2025, at 08:00-09:00.
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_04_noon.txt
+
+Okay, I understand you're looking for an appointment around noon during your lunch break.
+
+The closest available slots to your preference are:
+
+*   Tuesday, 28 January 2025, 12:00-13:00
+*   Thursday, 30 January 2025, 12:30-13:30
+*   Friday, 31 January 2025, 12:00-13:00
+
+Please let me know if any of these work for you.
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_05_travelling
+
+Okay, I understand you are unavailable from tomorrow, January 21st, until January 28th. 
+
+The first available appointment slot after your trip is on Wednesday, January 29th, from 15:00 to 16:00. Would you like to book this slot?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_06_end of next week.txt
+
+Okay, I understand you're looking for an appointment at the end of next week. The available slots at the end of next week are:
+
+*   Friday, 31 January 2025, 12:00-13:00
+*   Friday, 31 January 2025, 18:30-19:30
+
+Please let me know if either of these work for you.
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+Okay, I understand you're looking for an appointment between Wednesday and Friday next week, preferably in the evening.
+
+Looking at the available slots, the only slot that matches all your preferences is:
+
+*   Friday, 31 January 2025, 18:30-19:30
+
+Would you like to book this slot?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.md
+
+Okay, I understand. You're looking for an appointment next week, and you'd like to avoid Monday morning.
+
+The available slots next week that are not on Monday morning are:
+
+*   Tuesday, 21 January 2025, 15:00-16:00
+*   Wednesday, 22 January 2025, 11:00-12:00
+*   Wednesday, 22 January 2025, 13:00-14:00
+*   Wednesday, 22 January 2025, 17:00-18:00
+*   Friday, 24 January 2025, 08:00-09:00
+*   Friday, 24 January 2025, 09:00-10:00
+
+Would any of these times work for you?
+
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.md
+
+Okay, I understand. You're looking for an appointment around noon next week, but not on Tuesday.
+
+The available slots that fit your criteria are:
+
+*   Wednesday, 29 January 2025, 15:00-16:00
+*   Thursday, 30 January 2025, 12:30-13:30
+*   Friday, 31 January 2025, 12:00-13:00
+
+Would any of these work for you?
+
+-------------------------------------------------------------------------

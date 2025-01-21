@@ -1,0 +1,91 @@
+Running all prompts in 04_Preferences_Simple against model llama3.3
+-------------------------------------------------------------------------
+System prompt loaded from '04_Preferences_Simple/SYSTEM-Preferences_Simple_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_01_ASAP.txt
+
+To find the earliest available appointment, I've reviewed our schedule. The soonest available slot is:
+
+Tuesday, 21 January 2025, 09:00-10:00
+
+This appointment is tomorrow and is the closest available time to today's date. Would you like to book this slot?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_02_WED_morning.txt
+
+I've checked our available appointment slots for you. Since you're looking for a Wednesday and preferably something early in the morning, I found that we have a slot on Wednesday, 22 January 2025, from 11:00-12:00. This is the earliest slot available on a Wednesday. Would you like to schedule your appointment then?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_03_very early.txt
+
+I've checked our available appointment slots for you. Unfortunately, we don't have any slots exactly at 8 a.m. However, I found a slot that is close to your preferred time. Our earliest available slot is on Friday, 24 January 2025, from 08:00-09:00. This matches your preference for coming in first thing in the morning. Would you like to schedule an appointment at this time?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_04_noon.txt
+
+After analyzing your request, I found that you prefer an appointment at noon. Comparing this to our available slots, I see that there are a few options around noon:
+
+- Wednesday, 22 January 2025, 11:00-12:00 (just before noon)
+- Wednesday, 22 January 2025, 13:00-14:00 (just after noon)
+- Tuesday, 28 January 2025, 12:00-13:00 (exactly at noon)
+
+The slot that best matches your preference for an appointment at noon is Tuesday, 28 January 2025, 12:00-13:00. Would you like to schedule your appointment for this time?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_05_travelling
+
+Based on your travel schedule, you are unavailable from Tuesday, 21 January 2025, until Monday, 28 January 2025. 
+
+Considering this, I've looked into the available appointment slots for you. Since you are not available during most of the week, I will check the slots before your trip and after your return.
+
+There is one slot available on Friday, 24 January 2025, but that falls within your travel period, so it's not suitable. The same applies to all other slots between the 21st and 28th.
+
+However, there are a few slots available after you return from your trip. For instance, there's a slot on Wednesday, 29 January 2025, 15:00-16:00, and another one on Thursday, 30 January 2025, 12:30-13:30, as well as two slots on Friday, 31 January 2025.
+
+If you're looking for an appointment before your trip, the closest available slot would be on Tuesday, 21 January 2025, but since you mentioned you'll be travelling from tomorrow, this might not work for you either.
+
+Given your constraints and the available slots, I couldn't find a perfect match that suits your travel schedule without conflicting with your availability. The closest options after your return are on Wednesday, 29 January 2025, Thursday, 30 January 2025, or Friday, 31 January 2025. Would you like me to suggest one of these based on other preferences you might have (like time of day)?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_06_end of next week.txt
+
+You're looking for an appointment at the end of next week. Based on our available slots, I found a few options that might interest you:
+
+* Friday, 24 January 2025, has two available slots: 08:00-09:00 and 09:00-10:00.
+* Monday, 27 January 2025, also has two available slots, but they are a bit earlier or later in the day: 09:00-10:00 and 16:00-17:00.
+
+Since you mentioned the end of next week, I'll suggest Friday, 24 January 2025. Would you prefer the 08:00-09:00 slot or the 09:00-10:00 slot?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+After analyzing your request, I found that you are looking for an appointment slot between Wednesday and Friday next week, preferably in the evening.
+
+Among the available slots, I found one that matches your preferences: 
+Wednesday, 29 January 2025, 15:00-16:00 is not exactly in the evening, but it's the closest to your preferred time frame. However, there's another slot on Friday, 31 January 2025, 18:30-19:30, which falls within your desired evening time frame.
+
+Since the Friday slot at 18:30-19:30 matches your "evening" preference more closely and still falls within the Wednesday to Friday timeframe, I suggest booking the appointment on Friday, 31 January 2025, from 18:30-19:30.
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.md
+
+You're available any day next week, except for Monday morning. Let me check the available slots.
+
+Since you can't do Monday morning, I'll look for slots from Tuesday to Friday of next week. 
+
+Here are a few options that match your preferences:
+- Tuesday, 21 January 2025, 15:00-16:00
+- Wednesday, 22 January 2025, has several slots: 11:00-12:00, 13:00-14:00, and 17:00-18:00
+- Friday, 24 January 2025, has two slots: 08:00-09:00 and 09:00-10:00
+
+All of these options avoid Monday morning. Would you like me to suggest one of these, or would you like me to look further into the following week?
+-------------------------------------------------------------------------
+--- Prompt file 04_Preferences_Simple/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.md
+
+You're looking for an appointment around noon next week, but you'd like to avoid Tuesdays. 
+
+Let me check the available slots for you. 
+
+For Monday, 27 January 2025, there's a slot at 09:00-10:00, which is a bit earlier than noon, and another one at 16:00-17:00, which is later than noon.
+
+On Wednesday, 29 January 2025, there's a slot at 15:00-16:00, which is close but slightly later than noon.
+
+Thursday, 30 January 2025, has a slot at 12:30-13:30, which is very close to noon.
+
+Friday, 31 January 2025, offers two slots: one at 12:00-13:00, which matches your noon preference perfectly, and another at 18:30-19:30, which is much later than noon.
+
+Given your preferences, the closest match would be Friday, 31 January 2025, 12:00-13:00, as it meets both the "around noon" and "except for Tuesday" criteria. Would you like to schedule this appointment?
+-------------------------------------------------------------------------

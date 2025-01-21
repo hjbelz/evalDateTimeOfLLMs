@@ -7,6 +7,8 @@
 - [X] New version of the prompts returning structured data
 - [X] Format prompts with XML
 - [ ] Prompts for appointment negotiation
+- [ ] Add missing contraint test for explicit time range: e.g. "1 to 5 in the afternoon"
+- [ ] Optional: New test asking for time ranges for expressions like "in the morning"
 
 ## AI competent in appointment negotiations?
 
