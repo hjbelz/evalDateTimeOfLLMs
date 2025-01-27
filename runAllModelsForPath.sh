@@ -21,6 +21,7 @@ fi
 # Google Gemini
 ./evalDatePrompts.sh gemini-1.5-pro-latest "$promptPath"
 ./evalDatePrompts.sh gemini-2.0-flash-exp "$promptPath"
+# ./evalDatePrompts.sh gemini-2.0-flash-thinking-exp-01-21 "$promptPath"
 
 # Llama by Meta (local)
 ./evalDatePrompts.sh llama3.3 "$promptPath"
