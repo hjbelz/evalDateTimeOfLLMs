@@ -23,6 +23,9 @@ fi
 ./evalDatePrompts.sh gemini-2.0-flash-exp "$promptPath"
 # ./evalDatePrompts.sh gemini-2.0-flash-thinking-exp-01-21 "$promptPath"
 
-# Llama by Meta (local)
+# Llama by Meta (localvia Ollama)
 ./evalDatePrompts.sh llama3.3 "$promptPath"
-# ./evalDatePrompts.sh llama3.2 "$promptPath"
+
+# Local (distilled) DeepSeek models (local via Ollama)
+# DeepSeek-R1-Distill-Llama-70B
+# ./evalDatePrompts.sh deepseek-r1:70b "$promptPath"

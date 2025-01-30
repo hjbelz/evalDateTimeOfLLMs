@@ -10,7 +10,7 @@ Today's date is:
 Here are the available appointment slots (all times are in the German time zone):
 <available_slots>
   <slot>Tuesday,    21 January 2025, 09:00-10:00</slot>
-  <slot>Tuesday,    21 January 2025, 15:00-16:00</slot>
+  <slot>Tuesday,    21 January 2025, 15:30-16:30</slot>
   <slot>Wednesday,  22 January 2025, 11:00-12:00</slot>
   <slot>Wednesday,  22 January 2025, 13:00-14:00</slot>
   <slot>Wednesday,  22 January 2025, 17:00-18:00</slot>
