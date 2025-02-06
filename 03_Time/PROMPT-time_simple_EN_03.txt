@@ -1,0 +1,22 @@
+This is a list of time intervalls
+<time-intervalls>
+07:30-08:30,
+09:00-10:00 
+10:30-12:00, 
+11:15-12:30, 
+13:20-14:15, 
+15:40-16:00, 
+18:00-21:50, 
+19:00-19:08, 
+20:55-21:01
+</time-intervalls>
+Answer the following questions:
+
+1. Which is the the shortest intervall and how long is it?
+2. Which intervalls are exactly one hour long?
+3. Which of the intervalls fall between 10:00 and 13:00?
+4. Which of the intervalls are in the afternoon or evening?
+5. Which is longer than an hour?
+6. Which of the intervalls are before noon?
+7. Which of the intervalls are shorter than half an hour?
+

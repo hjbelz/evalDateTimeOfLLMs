@@ -1,0 +1,1117 @@
+Running all prompts in 05_Preferences_Structured_CoT_Detailed against model gemini-2.0-flash-lite-preview-02-05
+-------------------------------------------------------------------------
+System prompt loaded from '05_Preferences_Structured_CoT_Detailed/SYSTEM-Preferences_Structured_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_01_ASAP.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "asap",
+      "preference": "The appointment should be as soon as possible"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    }
+  ],
+  "suggestedSlot": "2025-01-21T09:00",
+  "response": "I can offer you an appointment on Tuesday, 21 January 2025, at 09:00. Does that work for you?"
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_02_WED_morning.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefDay",
+      "preference": "The appointment must be on a Wednesday"
+    },
+    {
+      "id": "prefTime",
+      "preference": "The appointment should be early in the morning"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I am sorry, but there are no available slots that match your preferences. The closest available slot is on Wednesday, January 22nd at 11:00, 13:00 or 17:00. Would any of these work for you?"
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_03_very early.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "The appointment must be around 8 a.m."
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I am sorry, but there are no available slots at 8 a.m. The closest available slot is on Friday, 24 January 2025, from 08:00-09:00."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_04_noon.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "The appointment must be at noon"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I am sorry, but there are no available slots at noon. The closest available slot is on Tuesday, 28 January 2025, 12:00-13:00."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_05_travelling
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "The appointment must be after the 28th of January"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    }
+  ],
+  "suggestedSlot": "2025-01-29T15:00",
+  "response": "I can offer you an appointment on Wednesday, 29 January 2025, 15:00-16:00."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_06_end of next week.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "The appointment should be at the end of next week"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I am sorry, but there are no available slots that match your request for the end of next week. The closest available slots are on Friday, January 31st at 12:00 or 18:30."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+```
+{
+  "analysis": [
+    "analysis": [
+    "id": "preference",
+    "preference": "slot"
+    "slot": "20:00-1 slot"
+  ]
+  "response": "Sorry, there is no slot that matches all of your preferences. However, the closest slot is the one on the 22nd, 
+  
+  "suggestedSlot": null
+}
+```
+
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.md
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefWeekDay",
+      "preference": "The appointment must not be on Monday morning"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    }
+  ],
+  "suggestedSlot": "2025-01-22T11:00",
+  "response": "I can offer you an appointment on Wednesday, January 22nd at 11:00. Would that work for you?"
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.md
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "The appointment should be around noon"
+    },
+    {
+      "id": "prefWeekDay",
+      "preference": "The appointment should not be on Tuesday"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefTime",
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime",
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [
+        "prefWeekDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [],
+      "isMatch": true
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    }
+  ],
+  "suggestedSlot": "2025-01-30T12:30",
+  "response": "I can offer you an appointment on Thursday, January 30th, from 12:30 to 13:30 or on Friday, January 31st, from 12:00 to 13:00."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_10_FRI_time_interval.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be between 08:30 and 11:00"
+    },
+    {
+      "id": "prefDay",
+      "preference": "The appointment must be on a Friday"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T09:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime",
+        "prefDay"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [
+        "prefTime",
+        "prefDay"
+      ],
+      "isMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I am sorry, but there are no available slots that match your request. The closest available slots are on Friday, 24 January 2025 at 08:00 or 09:00."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 05_Preferences_Structured_CoT_Detailed/PROMPT-preferences_EN_11_interval only.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be between 14:00 and 16:00"
+    },
+    {
+      "id": "prefWeekDay",
+      "preference": "Any day is fine"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot": "2025-01-21T15:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T11:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T13:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-22T17:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T08:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-24T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-27T16:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T09:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-28T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-29T15:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-30T12:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T12:00",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    },
+    {
+      "slot": "2025-01-31T18:30",
+      "idPreferencesNotMatched": [
+        "prefTime"
+      ],
+      "isMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I am sorry, but there are no available slots that match your requested time. The closest available slot is on Tuesday, 21 January 2025, 15:30-16:30."
+}
+```
+-------------------------------------------------------------------------
