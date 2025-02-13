@@ -1,0 +1,725 @@
+Running all prompts in 06_Preferences_Structured_Optimized against model gpt-4o-mini
+-------------------------------------------------------------------------
+System prompt loaded from '06_Preferences_Structured_Optimized/SYSTEM-Preferences_Structured_Optimized_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_01_ASAP.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefUrgency",
+      "preference": "Appointment needed as soon as possible"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-21",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-21",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "15:30-16:30",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "16:00-17:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-29",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "15:00-16:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-30",
+      "slot-day-of-week": "Thursday",
+      "slot-interval": "12:30-13:30",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "18:30-19:30",
+      "idPreferencesMatched": ["prefUrgency"],
+      "isFullMatch": true
+    }
+  ],
+  "suggestedSlot": "2025-01-21T09:00",
+  "response": "The earliest available appointment is on Tuesday, 21 January 2025, from 09:00 to 10:00. Would you like to book this slot?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_02_WED_morning.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefWeekDay",
+      "preference": "Slot must be on a Wednesday"
+    },
+    {
+      "id": "prefTime",
+      "preference": "Slot must be early in the morning"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I'm sorry, but there are no available slots on Wednesday that are early in the morning. The closest available slot is on Wednesday, 22 January 2025, from 11:00 to 12:00."
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_03_very early.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be around 8 a.m."
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": ["prefTime"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-21",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "2025-01-24T08:00",
+  "response": "I can offer you an appointment on Friday, 24 January 2025, at 08:00. Would that work for you?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_04_noon.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be at noon"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefTime"],
+      "isFullMatch": true
+    }
+  ],
+  "suggestedSlot": "2025-01-28T12:00",
+  "response": "The closest available slot that matches your preference is on Tuesday, 28 January 2025, at 12:00. Would you like to book this appointment?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_05_travelling
+
+{
+  "analysis": [
+    {
+      "id": "prefTravel",
+      "preference": "Customer is traveling from 21 January to 28 January"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-21",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-21",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "15:30-16:30",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "16:00-17:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-29",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "15:00-16:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-30",
+      "slot-day-of-week": "Thursday",
+      "slot-interval": "12:30-13:30",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "18:30-19:30",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I apologize, but there are no available appointment slots that match your schedule since you will be traveling until the 28th. The closest available slot after your travel is on 28 January at 09:00."
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_06_end of next week.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefTimeFrame",
+      "preference": "Appointment must be at the end of next week"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefTimeFrame"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "18:30-19:30",
+      "idPreferencesMatched": ["prefTimeFrame"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "",
+  "response": "I apologize, but there are no available slots that match your request for an appointment at the end of next week. The closest available slots are on Friday, 31 January 2025, at 12:00-13:00 and 18:30-19:30."
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_07_WED-FRI evening nxt week.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefDayRange",
+      "preference": "Slot must be between Wednesday and Friday next week"
+    },
+    {
+      "id": "prefTime",
+      "preference": "Preferably in the evening"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": ["prefDayRange", "prefTime"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": ["prefDayRange"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefDayRange"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "2025-01-22T17:00",
+  "response": "I have an appointment available on Wednesday, 22 January 2025, from 17:00 to 18:00. Would you like to book this slot?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_08_nxt_week_exc_MON_morning.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefAnyDay",
+      "preference": "Any day next week is acceptable"
+    },
+    {
+      "id": "prefAvoidMondayMorning",
+      "preference": "Avoid Monday morning"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-21",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-21",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "15:30-16:30",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "16:00-17:00",
+      "idPreferencesMatched": ["prefAnyDay"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "2025-01-21T15:30",
+  "response": "I suggest the appointment on Tuesday, 21 January 2025, from 15:30 to 16:30. Please let me know if that works for you!"
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_09_nxt_week_noon_exc_TUE.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be around noon"
+    },
+    {
+      "id": "prefWeekDay",
+      "preference": "Day of the week must not be Tuesday"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "16:00-17:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-29",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "15:00-16:00",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-30",
+      "slot-day-of-week": "Thursday",
+      "slot-interval": "12:30-13:30",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "18:30-19:30",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "2025-01-22T11:00",
+  "response": "I have a slot available on Wednesday, 22 January 2025, from 11:00 to 12:00. Would you like to book this appointment?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_10_FRI_time_interval.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be between 8:30 and 11:00 on Friday"
+    },
+    {
+      "id": "prefWeekDay",
+      "preference": "Day of the week must be Friday"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": true
+    }
+  ],
+  "suggestedSlot": "2025-01-24T09:00",
+  "response": "I can offer you an appointment on Friday, 24 January 2025, from 09:00 to 10:00. Would that work for you?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 06_Preferences_Structured_Optimized/PROMPT-preferences_EN_11_interval only.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be between 14:00 and 16:00"
+    },
+    {
+      "id": "prefAvailability",
+      "preference": "Slot must be available after lunchtime"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": ["prefAvailability"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-27",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "16:00-17:00",
+      "idPreferencesMatched": ["prefTime"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefAvailability"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-29",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "15:00-16:00",
+      "idPreferencesMatched": ["prefTime", "prefAvailability"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-30",
+      "slot-day-of-week": "Thursday",
+      "slot-interval": "12:30-13:30",
+      "idPreferencesMatched": ["prefAvailability"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefAvailability"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-31",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "18:30-19:30",
+      "idPreferencesMatched": ["prefAvailability"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlot": "2025-01-29T15:00",
+  "response": "The best available slot for you is on Wednesday, 29 January 2025, from 15:00 to 16:00."
+}
+-------------------------------------------------------------------------

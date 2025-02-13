@@ -1,0 +1,1 @@
+Do you have something around noon next week except for Tuesday?

@@ -11,7 +11,7 @@ Here are the available appointment slots. Each slot will include the day of the 
 
 <available_slots>
   <slot>Tuesday,    21 January 2025, 09:00-10:00</slot>
-  <slot>Tuesday,    21 January 2025, 15:00-16:00</slot>
+  <slot>Tuesday,    21 January 2025, 15:30-16:30</slot>
   <slot>Wednesday,  22 January 2025, 11:00-12:00</slot>
   <slot>Wednesday,  22 January 2025, 13:00-14:00</slot>
   <slot>Wednesday,  22 January 2025, 17:00-18:00</slot>
@@ -28,7 +28,7 @@ Here are the available appointment slots. Each slot will include the day of the 
 </available_slots>
 
 ## Instructions
-1. Analyze the customer's request carefully, identifying all stated preferences.
+1. Analyze the customer's request carefully, identifying all individual components of their stated schedule preference.
 2. Compare the customer's preferences to the available slots.
 3. If a slot matches ALL of the customer's preferences, suggest that slot.
 4. If more than one slot matches ALL preferences, suggest the one closest to the current date.  
@@ -42,14 +42,16 @@ Use the following process returning a JSON object:
 1. Break down a customer's request into its smallest, individual preferences. Define an array "analysis" in the JSON object with an element for each individual preference: 
 { 
   "id": "<one word identifier for the preference>", 
-  "preference": "<crisp formulation of the preference>" 
+  "preference": "<accurate formulation of the preference>" 
 }
 
-2. Match the preferences against all available slots. Include an array "matchingResults" in the JSON object which for all available slots contains an object with the elements: 
+2. Match the preferences against all available slots. Include an array "matchingResults" in the JSON object and enumerate ALL partially or fully matching slots. The elements in matchingResults must have the following structure:
 { 
-  "slot" : "<date and start time in ISO-Format>",
-  "idPreferencesNotMatched" : <array of ids of the preferences not matched>, 
-  "isMatch" : <true, if idPreferencesNotMatched is an empty array and the slot matches all preferences, false otherwise>
+  "slot-date" : "<date in ISO-Format>",
+  "slot-day-of-week" : "<day of the week, e.g. Sunday>"
+  "slot-interval" : "<start and end time formatted as 'HH:mm-HH:mm', e.g. 15:00-16:00>" 
+  "idPreferencesMatched" : <array of ids of the preferences matched>, 
+  "isFullMatch" : <true, if idPreferencesMatched if the slot matches all preferences, false otherwise>
 }
 
 3. Create an element in the JSON object for you suggestion:
@@ -75,18 +77,34 @@ Your response:
   ],
   "matchingResults": [
     {
-      "slot": "2024-12-09T08:00",
-      "idPreferencesNotMatched": [
-        "prefTime",
-        "prefWeekDay"
-      ],
-      "isMatch": false
+      "slot-date": "2024-12-09",
+      "slot-day-of-week": "Monday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": [],
+      "isFullMatch": false
     },
     {
-      "slot": "2024-12-10T13:00",
-      "idPreferencesNotMatched": [],
-      "isMatch": true
+      "slot-date": "2024-12-10",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2024-12-11",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "14:30-15:30",
+      "idPreferencesMatched": ["prefWeekDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2024-12-12",
+      "slot-day-of-week": "Thursday",
+      "slot-interval": "13:20-14:20",
+      "idPreferencesMatched": ["prefTime", "prefWeekDay"],
+      "isFullMatch": true
     }
+
   ],
   "suggestedSlot": "2024-12-10T13:00",
   "response": "<Formulate a concise and suitable response providing your suggestion to the customer. If there is no slot matching all preferences, apologize instead and offer the slot which is closest to the customer's preferences.>"

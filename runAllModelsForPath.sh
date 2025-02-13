@@ -20,7 +20,7 @@ fi
 
 # Google Gemini
 # ./evalDatePrompts.sh gemini-1.5-pro-latest "$promptPath"
-./evalDatePrompts.sh gemini-2.0-pro-exp-02-05 "$promptPath"
+# ./evalDatePrompts.sh gemini-2.0-pro-exp-02-05 "$promptPath"
 ./evalDatePrompts.sh gemini-2.0-flash "$promptPath"
 ./evalDatePrompts.sh gemini-2.0-flash-lite-preview-02-05 "$promptPath"
 # ./evalDatePrompts.sh gemini-2.0-flash-thinking-exp-01-21 "$promptPath"
@@ -33,6 +33,6 @@ fi
 
 # Local (distilled) DeepSeek models (local via Ollama)
 # DeepSeek-R1-Distill-Llama-70B
-./evalDatePrompts.sh deepseek-r1:70b "$promptPath"
+# ./evalDatePrompts.sh deepseek-r1:70b "$promptPath"
 
 
