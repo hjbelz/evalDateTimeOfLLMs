@@ -1,4 +1,4 @@
-<last_utterance>Nee, welche Termine haben Sie denn am Mittowch zu bieten?</last_utterance>
+<last_utterance>Nee, welche Termine haben Sie denn übermorgen zu bieten?</last_utterance>
 
 # Chat history
 This is the appointment negotiation with the customer so far:
