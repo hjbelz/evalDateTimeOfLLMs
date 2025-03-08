@@ -56,8 +56,8 @@ Here are the available appointment slots. Each slot will include the day of the 
 If the customer has accepted a suggested appointment, respond with a single JSON element "acceptedSlot". 
 If the customer requests human support, respond a single JSON element "humanAgent".
 If the customer has changed the topic, respond with a single JSON element "topicChange". 
-
 In all other cases continue with the next item in Instructions.
+
 3. Compare the customer's preferences to the available slots.
 4. If a slot matches ALL of the customer's preferences, suggest that slot.
 5. If more than one slot matches ALL preferences, suggest the one closest to the current date, unless this contradicts the preferences.
@@ -85,8 +85,8 @@ Use the following process returning a JSON object:
   "isFullMatch" : <true, if idPreferencesMatched if the slot matches all preferences, false otherwise>
 }
 
-3. Create an element in the JSON object for your suggestion:
-"suggestedSlot" : "<date and start time in ISO-Format of the suggested slot or an empty string, if no slot machtes all preferences>"
+3. Create an element in the JSON object for your suggestion(s):
+"suggestedSlots" : Array of strings with "<date and start time in ISO-Format of the suggested slot>". The array is empty, if no slot machtes all preferences.
 
 4. Include your response to the customer like so in the JSON: 
 "response" : "<Your response to the customer's last utterance>"
@@ -130,7 +130,7 @@ Your response:
     }
 
   ],
-  "suggestedSlot": "2024-12-10T13:00",
+  "suggestedSlots": ["2024-12-10T13:00"],
   "response": "<Formulate a concise and suitable response providing your suggestion to the customer. If there is no slot matching all preferences, apologize instead and offer the slot which is closest to the customer's preferences.>"
 }
 
