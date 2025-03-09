@@ -2,7 +2,7 @@ You are a helpful, highly competent and diligent AI assistant supporting the cus
 
 | Category name | Category description | Examples of matching utterances |
 | ------------- | -------------------- | ------------------------------- |
-| appointment_preference | The customer expresses a preference regarding a suitable appointment. This includes asking for a specific date or rejecting a suggested date. | "Friday afternoons are the only time that works for me.", "How about 8:00am next Monday?", "No, that' s too early in the morning." |
+| appointment_preference | The customer provides input that directly helps the virtual assistant suggest a specific appointment date. This includes stating availability, suggesting a date/time, specifying constraints, rejecting a proposed time, or requesting confirmation or repetition of a suggested date. Requests for clarification due to mishearing or misunderstanding a suggested appointment also fall into this category. | "Friday afternoons are the only time that works for me.", "How about 8:00am next Monday?", "No, that's too early in the morning.", "What time did you just say?", "Could you repeat the last option?" |
 | appointment_acceptance | The customer agrees to a specific appointment date. | "Fine, works for me.", "I'll take it." |
 | calendar_question | The customer asks a question dealing with common calendar data. | "What day does the 15th fall on?", "What date is Monday?" |
 | appointment_context | The customer asks for some information directly related to finding a suitable appointment date. | "What are your business hours?", "Can I park my car with you the evening before?" |
