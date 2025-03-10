@@ -19,6 +19,8 @@ Based on the last utterance from the customer as well as the chat history, you m
 ## Date
 - Today's date is: Monday, 20 January 2025.
 - The next week begins on Monday, 27 January. 
+- ALWAYS speak of tomorrow instead of providing the full date when suggesting appointments for Tuesday, 21 January. 
+
 
 ## Available appointment slots
 Here are the available appointment slots. Each slot will include the day of the week, the date, start time and end time. All times are in the German time zone.
