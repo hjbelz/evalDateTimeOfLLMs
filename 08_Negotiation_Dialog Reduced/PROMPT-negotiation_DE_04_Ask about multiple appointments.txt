@@ -1,0 +1,9 @@
+<last_utterance>Nee, welche Termine haben Sie denn übermorgen zu bieten?</last_utterance>
+
+# Chat history
+This is the appointment negotiation with the customer so far:
+
+<chat-history>
+  <customer>Ich brauche einen Termin möglichst bald.</customer>
+  <agent>Wie wäre es morgen um neun oder um 15:30 Uhr? </agent>
+</chat-history>

@@ -1,0 +1,11 @@
+<last_utterance>Kundenberater bitte!</last_utterance>
+
+# Chat history
+This is the appointment negotiation with the customer so far:
+
+<chat-history>
+  <customer>Ich hätte gern einen Termin am Dienstag um die Mittagszeit.</customer>
+  <agent>Dienstagmittag haben wir leider nichts frei. Ich hätte am Dienstag einen Termin um 09:30. Ginge das auch?</agent>
+  <customer>Nein, es muss auf jeden Fall um die Mittagszeit herum sein. Ich kann ab 11:00 Uhr bis maximal 13:30 Uhr. Was ist mit Freitag?</customer>
+  <agent>Am Freitag habe ich leider nur sehr früh am Morgen etwas frei.</agent>‚
+</chat-history>

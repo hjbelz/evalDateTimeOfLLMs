@@ -1,0 +1,11 @@
+<last_utterance>Hmm, kann ich da meinen Wagen schon am Vortag abliefern?</last_utterance>
+
+# Chat history
+This is the appointment negotiation with the customer so far:
+
+<chat-history>
+  <customer>Ich brauche einen Termin möglichst bald.</customer>
+  <agent>Wie wäre es morgen um neun oder um 15:30 Uhr? </agent>
+  <customer>Passt mir beides nicht so gut. Was gibt es am Mittwoch an freien Terminen?</customer>
+  <agent>Mittwoch könnte ich Ihnen 11:00 Uhr anbieten.</agent>
+</chat-history>
