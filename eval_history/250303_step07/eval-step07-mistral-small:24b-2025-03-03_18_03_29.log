@@ -1,0 +1,76 @@
+Running all prompts in 07_Negotiation_Dialog against model mistral-small:24b
+-------------------------------------------------------------------------
+System prompt loaded from '07_Negotiation_Dialog/SYSTEM-Negotiation_Dialog_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_01_Tuesday next week_noon.txt
+
+Es scheint, dass der Kunde flexibel ist und einen Termin um die Mittagszeit bevorzugt. Hier sind einige Vorschläge für den nächsten Schritt:
+
+1. **Bestätigung des Termins**: Wenn es möglich ist, einen Termin um die Mittagszeit zu finden, bestätigen Sie dies.
+2. **Alternativen anbieten**: Falls kein Termin um die Mittagszeit verfügbar ist, bieten Sie alternative Zeiten oder Tage an.
+
+Hier ist ein Beispiel für eine Antwort:
+
+---
+
+<agent>Leider haben wir am Dienstag und Freitag keine Termine um die Mittagszeit frei. Wie wäre es denn mit einem Termin am Montag um 12:00 Uhr? Alternativ könnte ich Ihnen auch einen Termin am Donnerstag um 13:00 Uhr anbieten.</agent>
+
+---
+
+Falls Sie spezifische Informationen über die Verfügbarkeit haben, können Sie diese ebenfalls einfließen lassen.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_02_Talk to a human.txt
+
+Based on the chat history, here's a suggested response for the customer service agent:
+
+<agent>
+Ich verstehe, dass Sie einen Termin um die Mittagszeit bevorzugen. Leider haben wir am Dienstag und Freitag keine passenden Zeitfenster in Ihrem gewünschten Zeitraum.
+
+Lassen Sie mich nachsehen, ob es möglicherweise an einem anderen Tag eine Möglichkeit gibt. Hätten Sie eventuell auch am Donnerstag oder Montag Zeit? Alternativ könnte ich Ihnen einen Termin für den frühen Morgen am Freitag anbieten.
+</agent>
+
+This response acknowledges the customer's preferences, provides additional options, and keeps the conversation open for further negotiation.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_03_Accept suggestion.txt
+
+Based on the chat history, it seems that the customer is flexible with the day but insists on having an appointment around lunchtime. Here's a summary of the negotiation so far:
+
+1. **Customer's initial request**: A Tuesday appointment around lunchtime.
+2. **Agent's first suggestion**: A Tuesday appointment at 09:30, which the customer declined.
+3. **Customer's revised request**: An appointment between 11:00 and 13:30 on Tuesday or Friday.
+4. **Agent's second suggestion**: A Friday appointment at either 8:00 or 9:00.
+
+Given that the customer has agreed to an 8:00 AM appointment, here’s a suggested response:
+
+<agent>Super! Dann machen wir den Termin für Freitag um 8 Uhr. Passt das für Sie?</agent>
+
+This confirms the appointment and seeks final confirmation from the customer.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_04_Ask about multiple appointments.txt
+
+Es scheint, dass der Kunde nach einem Termin sucht und Sie ihm bereits zwei Optionen für den nächsten Tag angeboten haben. Hier ist eine mögliche Antwort auf die Anfrage des Kunden:
+
+<agent>Übermorgen habe ich Termine um 10:00 Uhr oder um 14:30 Uhr frei. Welcher dieser Termine würde Ihnen besser passen?</agent>
+
+Das bietet dem Kunden zwei neue Optionen für den gewünschten Tag und zeigt, dass Sie flexibel sind und auf seine Bedürfnisse eingehen möchten.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_05_Question about Calendar.txt
+
+Based on the chat history, it seems like the customer is trying to schedule an appointment for either Tuesday or Friday around lunchtime. Here's a suggested response to clarify the availability for Friday:
+
+<response>
+Freitag ist der 27. Oktober. Am Freitag habe ich leider nur sehr früh am Morgen einen Termin frei, nämlich um 08:00 Uhr. Ginge das für Sie? Alternativ könnte ich Ihnen auch einen Termin am Montag, den 30. Oktober, anbieten.
+</response>
+
+This response provides the specific date for Friday and offers an alternative option for Monday if the early morning slot on Friday doesn't work for the customer.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_06_Repeat suggestion.txt
+
+Der spätere Termin war um 15:30 Uhr.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_07_Topic change.txt
+
+<response>
+Ja, das ist in der Regel möglich. Möchten Sie den Termin für morgen um neun oder um 15:30 Uhr festlegen? Wenn ja, kann ich Ihren Wagen am Vortag abliefern lassen.
+</response>
+-------------------------------------------------------------------------

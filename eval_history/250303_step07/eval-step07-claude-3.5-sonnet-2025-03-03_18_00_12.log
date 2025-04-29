@@ -1,0 +1,104 @@
+Running all prompts in 07_Negotiation_Dialog against model claude-3.5-sonnet
+-------------------------------------------------------------------------
+System prompt loaded from '07_Negotiation_Dialog/SYSTEM-Negotiation_Dialog_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_01_Tuesday next week_noon.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefDay",
+      "preference": "Next week Tuesday (28 January)"
+    },
+    {
+      "id": "prefTime",
+      "preference": "Between 11:00 and 13:30",
+      "source": "from chat history"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["prefDay", "prefTime"],
+      "isFullMatch": true
+    }
+  ],
+  "suggestedSlots": ["2025-01-28T12:00"],
+  "response": "Ja, nächsten Dienstag hätte ich einen Termin von 12:00 bis 13:00 Uhr frei."
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_02_Talk to a human.txt
+
+{
+  "humanAgent": true
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_03_Accept suggestion.txt
+
+{
+  "acceptedSlot": "2025-01-24T08:00"
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_04_Ask about multiple appointments.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefDay",
+      "preference": "Appointment should be the day after tomorrow (Wednesday, 22 January)"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": ["prefDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": ["prefDay"],
+      "isFullMatch": true
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": ["prefDay"],
+      "isFullMatch": true
+    }
+  ],
+  "suggestedSlots": ["2025-01-22T11:00"],
+  "response": "Übermorgen hätte ich einen Termin um 11 Uhr für Sie."
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_05_Question about Calendar.txt
+
+{
+  "response": "Diese Woche ist Freitag der 24. Januar und nächste Woche der 31. Januar."
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_06_Repeat suggestion.txt
+
+{
+  "response": "Der spätere Termin morgen wäre um 15:30 Uhr."
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_07_Topic change.txt
+
+{
+  "topicChange": true
+}
+-------------------------------------------------------------------------

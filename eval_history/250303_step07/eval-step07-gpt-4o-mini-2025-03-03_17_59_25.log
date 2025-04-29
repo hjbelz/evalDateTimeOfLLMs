@@ -1,0 +1,85 @@
+Running all prompts in 07_Negotiation_Dialog against model gpt-4o-mini
+-------------------------------------------------------------------------
+System prompt loaded from '07_Negotiation_Dialog/SYSTEM-Negotiation_Dialog_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_01_Tuesday next week_noon.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefWeekDay",
+      "preference": "Appointment must be on Tuesday"
+    },
+    {
+      "id": "prefTime",
+      "preference": "Slot must be between 11:00 and 13:30"
+    }
+  ],
+  "matchingResults": [],
+  "suggestedSlots": [],
+  "response": "Leider haben wir am Dienstag nächste Woche keinen Termin in der Mittagszeit. Der nächste verfügbare Slot wäre am Mittwoch um 11:00 Uhr. Wäre das für Sie in Ordnung?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_02_Talk to a human.txt
+
+{
+  "humanAgent": true
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_03_Accept suggestion.txt
+
+{
+  "analysis": [
+    {
+      "id": "prefTime",
+      "preference": "Slot must be between 11:00 and 13:30"
+    },
+    {
+      "id": "prefDay",
+      "preference": "Customer is interested in Friday"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": ["prefDay"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["prefDay"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlots": [],
+  "response": "Leider haben wir am Freitag keinen Termin in der Mittagszeit. Der früheste Termin wäre um 8:00 Uhr. Möchten Sie diesen Termin buchen?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_04_Ask about multiple appointments.txt
+
+{
+  "topicChange": true
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_05_Question about Calendar.txt
+
+{
+  "response": "Freitag ist der 24. Januar 2025."
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_06_Repeat suggestion.txt
+
+{
+  "response": "Der spätere Termin war morgen um 15:30 Uhr."
+}
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_07_Topic change.txt
+
+{
+  "topicChange": true
+}
+-------------------------------------------------------------------------

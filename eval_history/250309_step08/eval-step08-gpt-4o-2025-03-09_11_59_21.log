@@ -1,0 +1,131 @@
+Running all prompts in 08_Negotiation_Dialog Reduced against model gpt-4o
+-------------------------------------------------------------------------
+System prompt loaded from '08_Negotiation_Dialog Reduced/SYSTEM-Negotiation_Dialog_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 08_Negotiation_Dialog Reduced/PROMPT-negotiation_DE_01_Tuesday next week_noon.txt
+
+{
+  "analysis": [
+    {
+      "id": "day",
+      "preference": "nächste Woche Dienstag"
+    },
+    {
+      "id": "time",
+      "preference": "um die Mittagszeit herum, ab 11:00 Uhr bis maximal 13:30 Uhr"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-28",
+      "slot-day-of-week": "Tuesday",
+      "slot-interval": "12:00-13:00",
+      "idPreferencesMatched": ["day", "time"],
+      "isFullMatch": true
+    }
+  ],
+  "suggestedSlots": ["2025-01-28T12:00"],
+  "response": "Nächste Woche Dienstag hätte ich einen Termin um 12:00 Uhr. Passt das für Sie?"
+}
+-------------------------------------------------------------------------
+--- Prompt file 08_Negotiation_Dialog Reduced/PROMPT-negotiation_DE_02_Talk to a human.txt
+
+{"response": "Ich verbinde Sie jetzt mit einem unserer menschlichen Berater, der Ihnen weiterhelfen kann."}
+-------------------------------------------------------------------------
+--- Prompt file 08_Negotiation_Dialog Reduced/PROMPT-negotiation_DE_03_Accept suggestion.txt
+
+```json
+{
+  "analysis": [
+    {
+      "id": "day",
+      "preference": "Friday"
+    },
+    {
+      "id": "time",
+      "preference": "around midday, between 11:00 and 13:30"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "08:00-09:00",
+      "idPreferencesMatched": ["day"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-24",
+      "slot-day-of-week": "Friday",
+      "slot-interval": "09:00-10:00",
+      "idPreferencesMatched": ["day"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlots": [],
+  "response": "Es tut mir leid, aber wir haben am Freitag keinen Termin um 8 Uhr, der Ihren Zeitpräferenzen entspricht. Der früheste verfügbare Termin ist um 9 Uhr."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 08_Negotiation_Dialog Reduced/PROMPT-negotiation_DE_04_Ask about multiple appointments.txt
+
+{
+  "analysis": [
+    {
+      "id": "soon",
+      "preference": "Appointment as soon as possible"
+    },
+    {
+      "id": "day-after-tomorrow",
+      "preference": "Appointment the day after tomorrow"
+    }
+  ],
+  "matchingResults": [
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "11:00-12:00",
+      "idPreferencesMatched": ["day-after-tomorrow"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "13:00-14:00",
+      "idPreferencesMatched": ["day-after-tomorrow"],
+      "isFullMatch": false
+    },
+    {
+      "slot-date": "2025-01-22",
+      "slot-day-of-week": "Wednesday",
+      "slot-interval": "17:00-18:00",
+      "idPreferencesMatched": ["day-after-tomorrow"],
+      "isFullMatch": false
+    }
+  ],
+  "suggestedSlots": [],
+  "response": "Am Mittwoch, also übermorgen, hätten wir Termine um 11:00, 13:00 und 17:00 Uhr."
+}
+-------------------------------------------------------------------------
+--- Prompt file 08_Negotiation_Dialog Reduced/PROMPT-negotiation_DE_05_Question about Calendar.txt
+
+```json
+{
+  "response": "Freitag ist der 24. Januar."
+}
+```
+-------------------------------------------------------------------------
+--- Prompt file 08_Negotiation_Dialog Reduced/PROMPT-negotiation_DE_06_Repeat suggestion.txt
+
+{
+  "response": "Der spätere Termin ist morgen um 15:30 Uhr."
+}
+-------------------------------------------------------------------------
+--- Prompt file 08_Negotiation_Dialog Reduced/PROMPT-negotiation_DE_07_Topic change.txt
+
+```json
+{
+  "response": "Ja, Sie können Ihr Auto gerne schon am Vortag abliefern."
+}
+```
+-------------------------------------------------------------------------

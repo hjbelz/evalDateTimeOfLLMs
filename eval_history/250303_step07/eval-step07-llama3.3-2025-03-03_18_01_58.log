@@ -1,0 +1,36 @@
+Running all prompts in 07_Negotiation_Dialog against model llama3.3
+-------------------------------------------------------------------------
+System prompt loaded from '07_Negotiation_Dialog/SYSTEM-Negotiation_Dialog_EN.txt'.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_01_Tuesday next week_noon.txt
+
+Nächste Woche Dienstag habe ich um 12:00 Uhr einen Termin frei. Passt Ihnen das?
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_02_Talk to a human.txt
+
+Entschuldigung, aber es scheint, als ob wir uns in einem Chat-System befinden und Sie nach einem Kundenberater gefragt haben. Lassen Sie mich Ihnen helfen.
+
+Basierend auf unserem bisherigen Gespräch über die Terminverhandlung, scheinen Sie einen Termin um die Mittagszeit am Dienstag zu bevorzugen, aber dieser Zeitraum ist leider nicht verfügbar. Wir haben auch den Freitag als Alternative erwähnt, aber es gibt nur frühe Morgenzeiten frei.
+
+Könnten Sie mir bitte mehr über Ihre Anliegen oder Bedürfnisse erzählen, damit ich Ihnen besser helfen kann? Oder möchten Sie, dass ich nach einem anderen Termin schaue, der Ihren Zeitvorlieben entspricht?
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_03_Accept suggestion.txt
+
+Das passt! Ich werde Ihnen also einen Termin am Freitag um 8:00 Uhr eintragen. Ich freue mich darauf, Sie dann zu sehen!
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_04_Ask about multiple appointments.txt
+
+Übermorgen haben wir folgende Termine zur Verfügung: 10:00 Uhr, 14:00 Uhr oder 16:30 Uhr. Welcher Termin passt Ihnen am besten?
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_05_Question about Calendar.txt
+
+Der Freitag ist der fünfte Wochentag und somit der Tag vor dem Wochenende, also vor Samstag und Sonntag. Wenn du also einen Termin am Dienstag suchst und als Alternative den Freitag in Betracht ziehst, liegt der Freitag zwei Tage nach dem Dienstag.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_06_Repeat suggestion.txt
+
+Der spätere Termin, den ich Ihnen angeboten habe, war um 15:30 Uhr.
+-------------------------------------------------------------------------
+--- Prompt file 07_Negotiation_Dialog/PROMPT-negotiation_DE_07_Topic change.txt
+
+Ja, das ist möglich. Sie können Ihren Wagen bereits am Vortag abliefern. Bitte beachten Sie jedoch, dass unsere Werkstatt um 17:00 Uhr schließt. Wenn Sie Ihren Wagen später abliefern möchten, kann ich Ihnen auch eine Alternative anbieten. Wir haben einen sicheren Parkplatz, auf dem Ihr Fahrzeug über Nacht stehen kann. Lassen Sie mich wissen, was Ihnen am besten passt.
+-------------------------------------------------------------------------
